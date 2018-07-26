@@ -1,6 +1,6 @@
 {
 .appVersion = "1141";
-copyright = "Copyright (c) 2018 by Cadson Demak Co.,Ltd.. All rights reserved.";
+copyright = "Copyright (c) 2018, Cadson Demak (info@cadsondemak.com)";
 customParameters = (
 {
 name = vendorID;
@@ -123,6 +123,10 @@ value = 1172;
 {
 name = winDescent;
 value = -522;
+},
+{
+name = "Master Icon Glyph Name";
+value = n;
 }
 );
 descender = -250;
@@ -168,6 +172,10 @@ value = 1172;
 {
 name = winDescent;
 value = -522;
+},
+{
+name = "Master Icon Glyph Name";
+value = n;
 }
 );
 descender = -250;
@@ -212,6 +220,10 @@ value = 1172;
 {
 name = winDescent;
 value = -522;
+},
+{
+name = "Master Icon Glyph Name";
+value = n;
 }
 );
 descender = -250;
@@ -263,6 +275,10 @@ value = -534;
 {
 name = italicAngle;
 value = "8";
+},
+{
+name = "Master Icon Glyph Name";
+value = n;
 }
 );
 descender = -250;
@@ -314,6 +330,10 @@ value = -534;
 {
 name = italicAngle;
 value = "8";
+},
+{
+name = "Master Icon Glyph Name";
+value = n;
 }
 );
 descender = -250;
@@ -364,6 +384,10 @@ value = -534;
 {
 name = italicAngle;
 value = "8";
+},
+{
+name = "Master Icon Glyph Name";
+value = n;
 }
 );
 descender = -250;
@@ -204216,5 +204240,5 @@ thaiVStem = "145";
 };
 };
 versionMajor = 1;
-versionMinor = 1;
+versionMinor = 0;
 }
