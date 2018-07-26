@@ -5755,7 +5755,7 @@ unicode = 1E0E;
 {
 color = 4;
 glyphname = E;
-lastChange = "2018-07-18 10:11:34 +0000";
+lastChange = "2018-07-26 17:24:36 +0000";
 layers = (
 {
 anchors = (
@@ -5765,7 +5765,7 @@ position = "{280, 0}";
 },
 {
 name = ogonek;
-position = "{504, 10}";
+position = "{492, 10}";
 },
 {
 name = top;
@@ -5815,7 +5815,7 @@ position = "{280, 0}";
 },
 {
 name = ogonek;
-position = "{504, 10}";
+position = "{494, 10}";
 },
 {
 name = top;
@@ -5865,7 +5865,7 @@ position = "{280, 0}";
 },
 {
 name = ogonek;
-position = "{504, 10}";
+position = "{499, 10}";
 },
 {
 name = top;
@@ -5915,7 +5915,7 @@ position = "{223, 0}";
 },
 {
 name = ogonek;
-position = "{448, 10}";
+position = "{438, 10}";
 },
 {
 name = top;
@@ -5965,7 +5965,7 @@ position = "{223, 0}";
 },
 {
 name = ogonek;
-position = "{448, 10}";
+position = "{436, 10}";
 },
 {
 name = top;
@@ -6015,7 +6015,7 @@ position = "{223, 0}";
 },
 {
 name = ogonek;
-position = "{448, 10}";
+position = "{442, 10}";
 },
 {
 name = top;
@@ -14745,7 +14745,7 @@ unicode = 0112;
 },
 {
 glyphname = Eogonek;
-lastChange = "2018-07-18 10:11:34 +0000";
+lastChange = "2018-07-26 17:24:50 +0000";
 layers = (
 {
 background = {
@@ -15011,7 +15011,7 @@ name = E;
 },
 {
 name = ogonekcomb;
-transform = "{1, 0, 0, 1, 468, 6}";
+transform = "{1, 0, 0, 1, 463, 6}";
 }
 );
 layerId = "EB12C417-147C-44D3-ABF9-73FB32C0B9E2";
