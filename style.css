@@ -1,0 +1,2238 @@
+@font-face {
+    font-family: 'KrubThinItalic';
+    src: url('./fonts/Krub-ThinItalic.eot');
+    src: url('./fonts/Krub-ThinItalic.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/Krub-ThinItalic.woff2') format('woff2'),
+         url('./fonts/Krub-ThinItalic.woff') format('woff'),
+         url('./fonts/Krub-ThinItalic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'KrubExtraLightItalic';
+    src: url('./fonts/Krub-ExtraLightItalic.eot');
+    src: url('./fonts/Krub-ExtraLightItalic.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/Krub-ExtraLightItalic.woff2') format('woff2'),
+         url('./fonts/Krub-ExtraLightItalic.woff') format('woff'),
+         url('./fonts/Krub-ExtraLightItalic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'KrubLightItalic';
+    src: url('./fonts/Krub-LightItalic.eot');
+    src: url('./fonts/Krub-LightItalic.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/Krub-LightItalic.woff2') format('woff2'),
+         url('./fonts/Krub-LightItalic.woff') format('woff'),
+         url('./fonts/Krub-LightItalic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'KrubItalic';
+    src: url('./fonts/Krub-Italic.eot');
+    src: url('./fonts/Krub-Italic.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/Krub-Italic.woff2') format('woff2'),
+         url('./fonts/Krub-Italic.woff') format('woff'),
+         url('./fonts/Krub-Italic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'KrubMediumItalic';
+    src: url('./fonts/Krub-MediumItalic.eot');
+    src: url('./fonts/Krub-MediumItalic.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/Krub-MediumItalic.woff2') format('woff2'),
+         url('./fonts/Krub-MediumItalic.woff') format('woff'),
+         url('./fonts/Krub-MediumItalic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'KrubSemiBoldItalic';
+    src: url('./fonts/Krub-SemiBoldItalic.eot');
+    src: url('./fonts/Krub-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/Krub-SemiBoldItalic.woff2') format('woff2'),
+         url('./fonts/Krub-SemiBoldItalic.woff') format('woff'),
+         url('./fonts/Krub-SemiBoldItalic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'KrubBoldItalic';
+    src: url('./fonts/Krub-BoldItalic.eot');
+    src: url('./fonts/Krub-BoldItalic.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/Krub-BoldItalic.woff2') format('woff2'),
+         url('./fonts/Krub-BoldItalic.woff') format('woff'),
+         url('./fonts/Krub-BoldItalic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'KrubExtraBoldItalic';
+    src: url('./fonts/Krub-ExtraBoldItalic.eot');
+    src: url('./fonts/Krub-ExtraBoldItalic.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/Krub-ExtraBoldItalic.woff2') format('woff2'),
+         url('./fonts/Krub-ExtraBoldItalic.woff') format('woff'),
+         url('./fonts/Krub-ExtraBoldItalic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'KrubBlackItalic';
+    src: url('./fonts/Krub-BlackItalic.eot');
+    src: url('./fonts/Krub-BlackItalic.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/Krub-BlackItalic.woff2') format('woff2'),
+         url('./fonts/Krub-BlackItalic.woff') format('woff'),
+         url('./fonts/Krub-BlackItalic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'KrubThin';
+    src: url('./fonts/Krub-Thin.eot');
+    src: url('./fonts/Krub-Thin.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/Krub-Thin.woff2') format('woff2'),
+         url('./fonts/Krub-Thin.woff') format('woff'),
+         url('./fonts/Krub-Thin.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'KrubExtraLight';
+    src: url('./fonts/Krub-ExtraLight.eot');
+    src: url('./fonts/Krub-ExtraLight.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/Krub-ExtraLight.woff2') format('woff2'),
+         url('./fonts/Krub-ExtraLight.woff') format('woff'),
+         url('./fonts/Krub-ExtraLight.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'KrubLight';
+    src: url('./fonts/Krub-Light.eot');
+    src: url('./fonts/Krub-Light.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/Krub-Light.woff2') format('woff2'),
+         url('./fonts/Krub-Light.woff') format('woff'),
+         url('./fonts/Krub-Light.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'KrubRegular';
+    src: url('./fonts/Krub-Regular.eot');
+    src: url('./fonts/Krub-Regular.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/Krub-Regular.woff2') format('woff2'),
+         url('./fonts/Krub-Regular.woff') format('woff'),
+         url('./fonts/Krub-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'KrubMedium';
+    src: url('./fonts/Krub-Medium.eot');
+    src: url('./fonts/Krub-Medium.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/Krub-Medium.woff2') format('woff2'),
+         url('./fonts/Krub-Medium.woff') format('woff'),
+         url('./fonts/Krub-Medium.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'KrubSemiBold';
+    src: url('./fonts/Krub-SemiBold.eot');
+    src: url('./fonts/Krub-SemiBold.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/Krub-SemiBold.woff2') format('woff2'),
+         url('./fonts/Krub-SemiBold.woff') format('woff'),
+         url('./fonts/Krub-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'KrubBold';
+    src: url('./fonts/Krub-Bold.eot');
+    src: url('./fonts/Krub-Bold.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/Krub-Bold.woff2') format('woff2'),
+         url('./fonts/Krub-Bold.woff') format('woff'),
+         url('./fonts/Krub-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'KrubExtraBold';
+    src: url('./fonts/Krub-ExtraBold.eot');
+    src: url('./fonts/Krub-ExtraBold.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/Krub-ExtraBold.woff2') format('woff2'),
+         url('./fonts/Krub-ExtraBold.woff') format('woff'),
+         url('./fonts/Krub-ExtraBold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'KrubBlack';
+    src: url('./fonts/Krub-Black.eot');
+    src: url('./fonts/Krub-Black.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/Krub-Black.woff2') format('woff2'),
+         url('./fonts/Krub-Black.woff') format('woff'),
+         url('./fonts/Krub-Black.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'KrubThin';
+    src: url('./fonts/Krub-Thin.eot');
+    src: url('./fonts/Krub-Thin.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/Krub-Thin.woff2') format('woff2'),
+         url('./fonts/Krub-Thin.woff') format('woff'),
+         url('./fonts/Krub-Thin.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'KrubExtraLight';
+    src: url('./fonts/Krub-ExtraLight.eot');
+    src: url('./fonts/Krub-ExtraLight.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/Krub-ExtraLight.woff2') format('woff2'),
+         url('./fonts/Krub-ExtraLight.woff') format('woff'),
+         url('./fonts/Krub-ExtraLight.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'KrubLight';
+    src: url('./fonts/Krub-Light.eot');
+    src: url('./fonts/Krub-Light.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/Krub-Light.woff2') format('woff2'),
+         url('./fonts/Krub-Light.woff') format('woff'),
+         url('./fonts/Krub-Light.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'KrubRegular';
+    src: url('./fonts/Krub-Regular.eot');
+    src: url('./fonts/Krub-Regular.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/Krub-Regular.woff2') format('woff2'),
+         url('./fonts/Krub-Regular.woff') format('woff'),
+         url('./fonts/Krub-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'KrubMedium';
+    src: url('./fonts/Krub-Medium.eot');
+    src: url('./fonts/Krub-Medium.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/Krub-Medium.woff2') format('woff2'),
+         url('./fonts/Krub-Medium.woff') format('woff'),
+         url('./fonts/Krub-Medium.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'KrubSemiBold';
+    src: url('./fonts/Krub-SemiBold.eot');
+    src: url('./fonts/Krub-SemiBold.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/Krub-SemiBold.woff2') format('woff2'),
+         url('./fonts/Krub-SemiBold.woff') format('woff'),
+         url('./fonts/Krub-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'KrubBold';
+    src: url('./fonts/Krub-Bold.eot');
+    src: url('./fonts/Krub-Bold.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/Krub-Bold.woff2') format('woff2'),
+         url('./fonts/Krub-Bold.woff') format('woff'),
+         url('./fonts/Krub-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'KrubExtraBold';
+    src: url('./fonts/Krub-ExtraBold.eot');
+    src: url('./fonts/Krub-ExtraBold.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/Krub-ExtraBold.woff2') format('woff2'),
+         url('./fonts/Krub-ExtraBold.woff') format('woff'),
+         url('./fonts/Krub-ExtraBold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'KrubBlack';
+    src: url('./fonts/Krub-Black.eot');
+    src: url('./fonts/Krub-Black.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/Krub-Black.woff2') format('woff2'),
+         url('./fonts/Krub-Black.woff') format('woff'),
+         url('./fonts/Krub-Black.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'KrubThin';
+    src: url('./fonts/Krub-Thin.eot');
+    src: url('./fonts/Krub-Thin.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/Krub-Thin.woff2') format('woff2'),
+         url('./fonts/Krub-Thin.woff') format('woff'),
+         url('./fonts/Krub-Thin.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'KrubExtraLight';
+    src: url('./fonts/Krub-ExtraLight.eot');
+    src: url('./fonts/Krub-ExtraLight.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/Krub-ExtraLight.woff2') format('woff2'),
+         url('./fonts/Krub-ExtraLight.woff') format('woff'),
+         url('./fonts/Krub-ExtraLight.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'KrubLight';
+    src: url('./fonts/Krub-Light.eot');
+    src: url('./fonts/Krub-Light.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/Krub-Light.woff2') format('woff2'),
+         url('./fonts/Krub-Light.woff') format('woff'),
+         url('./fonts/Krub-Light.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'KrubRegular';
+    src: url('./fonts/Krub-Regular.eot');
+    src: url('./fonts/Krub-Regular.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/Krub-Regular.woff2') format('woff2'),
+         url('./fonts/Krub-Regular.woff') format('woff'),
+         url('./fonts/Krub-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'KrubMedium';
+    src: url('./fonts/Krub-Medium.eot');
+    src: url('./fonts/Krub-Medium.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/Krub-Medium.woff2') format('woff2'),
+         url('./fonts/Krub-Medium.woff') format('woff'),
+         url('./fonts/Krub-Medium.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'KrubSemiBold';
+    src: url('./fonts/Krub-SemiBold.eot');
+    src: url('./fonts/Krub-SemiBold.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/Krub-SemiBold.woff2') format('woff2'),
+         url('./fonts/Krub-SemiBold.woff') format('woff'),
+         url('./fonts/Krub-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'KrubBold';
+    src: url('./fonts/Krub-Bold.eot');
+    src: url('./fonts/Krub-Bold.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/Krub-Bold.woff2') format('woff2'),
+         url('./fonts/Krub-Bold.woff') format('woff'),
+         url('./fonts/Krub-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'KrubExtraBold';
+    src: url('./fonts/Krub-ExtraBold.eot');
+    src: url('./fonts/Krub-ExtraBold.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/Krub-ExtraBold.woff2') format('woff2'),
+         url('./fonts/Krub-ExtraBold.woff') format('woff'),
+         url('./fonts/Krub-ExtraBold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'KrubBlack';
+    src: url('./fonts/Krub-Black.eot');
+    src: url('./fonts/Krub-Black.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/Krub-Black.woff2') format('woff2'),
+         url('./fonts/Krub-Black.woff') format('woff'),
+         url('./fonts/Krub-Black.ttf') format('truetype');
+}
+
+#block-1 {
+  color: #BDCCD4;
+  background-color: #FF1D25;
+  height: 720px;
+}
+
+#block-1-header {
+  font-family: 'KrubLight';
+  font-size: 25pt;
+  line-height: 200%;
+  text-align: center;
+  padding-top: 250px;
+}
+
+#name {
+  font-family: 'KrubMedium';
+  font-size: 90pt;
+}
+
+#block-2 {
+  color: #FF1D25;
+  background-color: #FFF;
+  font-family: 'KrubRegular';
+  font-size: 42pt;
+  line-height: 140%;
+  text-align: left;
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+
+#block-3 {
+  height: 720px;
+  background: url("img/block03_1.png") no-repeat center;
+  color: #BDCCD4;
+  background-color: #FF1D25;
+}
+
+#block-3-text {
+  font-family: 'KrubItalic';
+  font-size: 18pt;
+  line-height: 140%;
+  text-align: right;
+  padding-top: 340px;
+}
+
+#block-4 {
+  height: 720px;
+  background: url("img/block04_1.png") no-repeat center;
+  color: #FFF;
+  background-color: #BDCCD4;
+}
+
+#block-4-text {
+  font-family: 'KrubThin';
+  font-size: 18pt;
+  line-height: 120%;
+  text-align: right;
+  padding-top: 380px;
+}
+
+#block-5 {
+  color: #FF1D25;
+  background-color: #FFF;
+  padding-bottom: 120px;
+}
+
+#block-5-Title {
+  font-family: 'KrubRegular';
+  font-size: 16pt;
+  text-align: left;
+  letter-spacing: 0px;
+}
+
+
+#block-5-text_sub {
+  font-family: 'KrubLight';
+  font-size: 12pt;
+  line-height: 100%;
+  text-align: left;
+  padding-top: 20px;
+}
+
+
+#block-5-text0 {
+  font-family: 'KrubThin';
+  font-size: 110pt;
+  line-height: 100%;
+  text-align: left;
+  padding-top: 80px;
+}
+
+#block-5-text1 {
+  font-family: 'KrubExtraLight';
+  font-size: 110pt;
+  line-height: 100%;
+  text-align: left;
+  padding-top: 50px;
+}
+
+#block-5-text2 {
+  font-family: 'KrubLight';
+  font-size: 110pt;
+  line-height: 100%;
+  text-align: left;
+  padding-top: 55px;
+}
+
+#block-5-text3 {
+  font-family: 'KrubRegular';
+  font-size: 110pt;
+  line-height: 100%;
+  text-align: left;
+  padding-top: 60px;
+}
+
+#block-5-text4 {
+  font-family: 'KrubMedium';
+  font-size: 110pt;
+  line-height: 100%;
+  text-align: left;
+  padding-top: 65px;
+}
+
+#block-5-text5 {
+  font-family: 'KrubSemiBold';
+  font-size: 110pt;
+  line-height: 100%;
+  text-align: left;
+  padding-top: 70px;
+}
+
+#block-5-text6 {
+  font-family: 'KrubBold';
+  font-size: 110pt;
+  line-height: 100%;
+  text-align: left;
+  padding-top: 80px;
+}
+
+#block-5-text7 {
+  font-family: 'KrubExtraBold';
+  font-size: 110pt;
+  line-height: 100%;
+  text-align: left;
+  padding-top: 80px;
+}
+
+#block-5-text8 {
+  font-family: 'KrubBlack';
+  font-size: 110pt;
+  line-height: 100%;
+  text-align: left;
+  padding-top: 80px;
+}
+
+#block-5-i {
+  color: #FF1D25;
+  background-color: #FFF;
+  padding-bottom: 120px;
+}
+
+#block-5-i-Title {
+  font-family: 'Krub';
+  font-size: 16pt;
+  text-align: left;
+  letter-spacing: 0px;
+}
+
+
+#block-5-i-text_sub {
+  font-family: 'KrubLight';
+  font-size: 12pt;
+  line-height: 100%;
+  text-align: left;
+  padding-top: 20px;
+}
+
+
+#block-5-i-text0 {
+  font-family: 'KrubThinItalic';
+  font-size: 110pt;
+  line-height: 100%;
+  text-align: left;
+  padding-top: 80px;
+}
+
+#block-5-i-text1 {
+  font-family: 'KrubExtraLightItalic';
+  font-size: 110pt;
+  line-height: 100%;
+  text-align: left;
+  padding-top: 50px;
+}
+
+#block-5-i-text2 {
+  font-family: 'KrubLightItalic';
+  font-size: 110pt;
+  line-height: 100%;
+  text-align: left;
+  padding-top: 55px;
+}
+
+#block-5-i-text3 {
+  font-family: 'KrubItalic';
+  font-size: 110pt;
+  line-height: 100%;
+  text-align: left;
+  padding-top: 60px;
+}
+
+#block-5-i-text4 {
+  font-family: 'KrubMediumItalic';
+  font-size: 110pt;
+  line-height: 100%;
+  text-align: left;
+  padding-top: 65px;
+}
+
+#block-5-i-text5 {
+  font-family: 'KrubSemiBoldItalic';
+  font-size: 110pt;
+  line-height: 100%;
+  text-align: left;
+  padding-top: 70px;
+}
+
+#block-5-i-text6 {
+  font-family: 'KrubBoldItalic';
+  font-size: 110pt;
+  line-height: 100%;
+  text-align: left;
+  padding-top: 80px;
+}
+
+#block-5-i-text7 {
+  font-family: 'KrubExtraBoldItalic';
+  font-size: 110pt;
+  line-height: 100%;
+  text-align: left;
+  padding-top: 80px;
+}
+
+#block-5-i-text8 {
+  font-family: 'KrubBlackItalic';
+  font-size: 110pt;
+  line-height: 100%;
+  text-align: left;
+  padding-top: 80px;
+}
+
+#block-6 {
+  height: 720px;
+  background-color: #BDCCD4;
+}
+
+#block-7-1 {
+  background: url("img/block07_1.jpg") no-repeat center;
+  background-size: cover;
+  height: 720px;
+  color: #FFF;
+  background-color: #BDCCD4;
+}
+
+#block-7-1-text {
+  font-family: 'KrubItalic';
+  font-size: 16pt;
+  line-height: 150%;
+  text-align: left;
+  padding-top: 250px;
+}
+
+#block-7-2 {
+  background: url("img/block07_2.jpg") no-repeat center;
+  background-size: cover;
+  height: 720px;
+  color: #FFF;
+  background-color: #BDCCD4;
+}
+
+#block-7-2-text {
+  font-family: 'KrubBold';
+  font-size: 18pt;
+  line-height: 150%;
+  text-align: left;
+  padding-top: 470px;
+}
+
+#block-7-3 {
+  background: url("img/block07_3.jpg") no-repeat center;
+  background-size: cover;
+  height: 720px;
+  color: #FFF;
+  background-color: #BDCCD4;
+}
+
+#block-7-3-text1 {
+  font-family: 'KrubThinItalic';
+  font-size: 13pt;
+  line-height: 150%;
+  text-align: left;
+  padding-top: 500px;
+}
+
+#block-7-3-text2 {
+  font-family: 'KrubExtraBoldItalic';
+  font-size: 13pt;
+  line-height: 150%;
+  text-align: left;
+  padding-top: 500px;
+}
+
+#block-Title {
+  color: #999999;
+  font-family: 'KrubLight';
+  font-size: 12pt;
+  text-align: left;
+  letter-spacing: 0px;
+}
+
+#block-Title-1 {
+  color: #999999;
+  font-family: 'KrubLight';
+  font-size: 12pt;
+  text-align: left;
+  letter-spacing: 0px;
+}
+
+#block-Title-2 {
+  color: #999999;
+  font-family: 'KrubLight';
+  font-size: 12pt;
+  text-align: left;
+  letter-spacing: 0px;
+}
+
+ul.nav > li > a {
+  color: #999999;
+  font-family: 'KrubLight';
+  font-size: 12pt;
+  text-align: center;
+  letter-spacing: 0px;
+}
+
+ul.nav > li.active > a {
+  color: #FFF;
+  background-color: #FF1D25;
+  font-family: 'KrubSemiBold';
+  font-size: 12pt;
+  text-align: center;
+  letter-spacing: 0px;
+}
+
+#block-9 {
+  color: #FF1D25;
+  background-color: #FFF;
+  padding-top: 80px;
+  padding-bottom: 50px;
+  text-align: left;
+}
+
+#block-9-Title {
+  font-family: 'KrubLight';
+  font-size: 12pt;
+  text-align: left;
+  letter-spacing: 0px;
+}
+
+#block-9-Char {
+  font-family: 'KrubThin';
+  font-size: 22pt;
+  line-height: 120%;
+  text-align: left;
+  letter-spacing: 3px;
+  padding-bottom: 15px;
+}
+
+#block-9-Num {
+  font-family: 'KrubThin';
+  font-size: 22pt;
+  text-align: left;
+  line-height: 120%;
+  letter-spacing: 3px;
+  padding-bottom: 15px;
+}
+
+#block-9-Vowel {
+  font-family: 'KrubThin';
+  line-height: 150%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-9-Sp-Char {
+  font-family: 'KrubThin';
+  line-height: 150%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-9-Symbol {
+  font-family: 'KrubThin';
+  line-height: 130%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-9-Ac-Char {
+  font-family: 'KrubThin';
+  line-height: 130%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-9-Text1 {
+  font-family: 'KrubThin';
+  line-height: 125%;
+  font-size: 12pt;
+  text-align: left;
+}
+
+#block-9-Text2 {
+  font-family: 'KrubThin';
+  line-height: 125%;
+  font-size: 18pt;
+  text-align: left;
+}
+
+#block-9-Text3 {
+  font-family: 'KrubThin';
+  line-height: 150%;
+  font-size: 24pt;
+  text-align: left;
+}
+
+#block-9-i {
+  color: #FF1D25;
+  background-color: #FFF;
+  padding-top: 80px;
+  padding-bottom: 50px;
+  text-align: left;
+}
+
+#block-9-i-Title {
+  font-family: 'KrubLight';
+  font-size: 12pt;
+  text-align: left;
+  letter-spacing: 0px;
+}
+
+#block-9-i-Char {
+  font-family: 'KrubThinItalic';
+  font-size: 22pt;
+  line-height: 120%;
+  text-align: left;
+  letter-spacing: 3px;
+  padding-bottom: 15px;
+}
+
+#block-9-i-Num {
+  font-family: 'KrubThinItalic';
+  font-size: 22pt;
+  text-align: left;
+  line-height: 120%;
+  letter-spacing: 3px;
+  padding-bottom: 15px;
+}
+
+#block-9-i-Vowel {
+  font-family: 'KrubThinItalic';
+  line-height: 150%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-9-i-Sp-Char {
+  font-family: 'KrubThinItalic';
+  line-height: 150%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-9-i-Symbol {
+  font-family: 'KrubThinItalic';
+  line-height: 130%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-9-i-Ac-Char {
+  font-family: 'KrubThinItalic';
+  line-height: 130%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-9-i-Text1 {
+  font-family: 'KrubThinItalic';
+  line-height: 125%;
+  font-size: 12pt;
+  text-align: left;
+}
+
+#block-9-i-Text2 {
+  font-family: 'KrubThinItalic';
+  line-height: 125%;
+  font-size: 18pt;
+  text-align: left;
+}
+
+#block-9-i-Text3 {
+  font-family: 'KrubThinItalic';
+  line-height: 150%;
+  font-size: 24pt;
+  text-align: left;
+}
+
+#block-10 {
+  color: #FF1D25;
+  background-color: #FFF;
+  padding-top: 80px;
+  padding-bottom: 50px;
+  text-align: left;
+}
+
+#block-10-Title {
+  font-family: 'KrubLight';
+  font-size: 12pt;
+  text-align: left;
+  letter-spacing: 0px;
+}
+
+#block-10-Char {
+  font-family: 'KrubExtraLight';
+  font-size: 22pt;
+  line-height: 120%;
+  text-align: left;
+  letter-spacing: 3px;
+  padding-bottom: 15px;
+}
+
+#block-10-Num {
+  font-family: 'KrubExtraLight';
+  font-size: 22pt;
+  text-align: left;
+  line-height: 120%;
+  letter-spacing: 3px;
+  padding-bottom: 15px;
+}
+
+#block-10-Vowel {
+  font-family: 'KrubExtraLight';
+  line-height: 150%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-10-Sp-Char {
+  font-family: 'KrubExtraLight';
+  line-height: 150%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-10-Symbol {
+  font-family: 'KrubExtraLight';
+  line-height: 130%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-10-Ac-Char {
+  font-family: 'KrubExtraLight';
+  line-height: 130%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-10-Text1 {
+  font-family: 'KrubExtraLight';
+  line-height: 125%;
+  font-size: 12pt;
+  text-align: left;
+}
+
+#block-10-Text2 {
+  font-family: 'KrubExtraLight';
+  line-height: 125%;
+  font-size: 18pt;
+  text-align: left;
+}
+
+#block-10-Text3 {
+  font-family: 'KrubExtraLight';
+  line-height: 150%;
+  font-size: 24pt;
+  text-align: left;
+}
+
+#block-10-i {
+  color: #FF1D25;
+  background-color: #FFF;
+  padding-top: 80px;
+  padding-bottom: 50px;
+  text-align: left;
+}
+
+#block-10-i-Title {
+  font-family: 'KrubLight';
+  font-size: 12pt;
+  text-align: left;
+  letter-spacing: 0px;
+}
+
+#block-10-i-Char {
+  font-family: 'KrubExtraLightItalic';
+  font-size: 22pt;
+  line-height: 120%;
+  text-align: left;
+  letter-spacing: 3px;
+  padding-bottom: 15px;
+}
+
+#block-10-i-Num {
+  font-family: 'KrubExtraLightItalic';
+  font-size: 22pt;
+  text-align: left;
+  line-height: 120%;
+  letter-spacing: 3px;
+  padding-bottom: 15px;
+}
+
+#block-10-i-Vowel {
+  font-family: 'KrubExtraLightItalic';
+  line-height: 150%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-10-i-Sp-Char {
+  font-family: 'KrubExtraLightItalic';
+  line-height: 150%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-10-i-Symbol {
+  font-family: 'KrubExtraLightItalic';
+  line-height: 130%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-10-i-Ac-Char {
+  font-family: 'KrubExtraLightItalic';
+  line-height: 130%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-10-i-Text1 {
+  font-family: 'KrubExtraLightItalic';
+  line-height: 125%;
+  font-size: 12pt;
+  text-align: left;
+}
+
+#block-10-i-Text2 {
+  font-family: 'KrubExtraLightItalic';
+  line-height: 125%;
+  font-size: 18pt;
+  text-align: left;
+}
+
+#block-10-i-Text3 {
+  font-family: 'KrubExtraLightItalic';
+  line-height: 150%;
+  font-size: 24pt;
+  text-align: left;
+}
+
+#block-11 {
+  color: #FF1D25;
+  background-color: #FFF;
+  padding-top: 80px;
+  padding-bottom: 50px;
+  text-align: left;
+}
+
+#block-11-Title {
+  font-family: 'KrubLight';
+  font-size: 12pt;
+  text-align: left;
+  letter-spacing: 0px;
+}
+
+#block-11-Char {
+  font-family: 'KrubLight';
+  font-size: 22pt;
+  line-height: 120%;
+  text-align: left;
+  letter-spacing: 3px;
+  padding-bottom: 15px;
+}
+
+#block-11-Num {
+  font-family: 'KrubLight';
+  font-size: 22pt;
+  text-align: left;
+  line-height: 120%;
+  letter-spacing: 3px;
+  padding-bottom: 15px;
+}
+
+#block-11-Vowel {
+  font-family: 'KrubLight';
+  line-height: 150%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-11-Sp-Char {
+  font-family: 'KrubLight';
+  line-height: 150%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-11-Symbol {
+  font-family: 'KrubLight';
+  line-height: 130%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-11-Ac-Char {
+  font-family: 'KrubLight';
+  line-height: 130%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-11-Text1 {
+  font-family: 'KrubLight';
+  line-height: 125%;
+  font-size: 12pt;
+  text-align: left;
+}
+
+#block-11-Text2 {
+  font-family: 'KrubLight';
+  line-height: 125%;
+  font-size: 18pt;
+  text-align: left;
+}
+
+#block-11-Text3 {
+  font-family: 'KrubLight';
+  line-height: 150%;
+  font-size: 24pt;
+  text-align: left;
+}
+
+#block-11-i {
+  color: #FF1D25;
+  background-color: #FFF;
+  padding-top: 80px;
+  padding-bottom: 50px;
+  text-align: left;
+}
+
+#block-11-i-Title {
+  font-family: 'KrubLight';
+  font-size: 12pt;
+  text-align: left;
+  letter-spacing: 0px;
+}
+
+#block-11-i-Char {
+  font-family: 'KrubLightItalic';
+  font-size: 22pt;
+  line-height: 120%;
+  text-align: left;
+  letter-spacing: 3px;
+  padding-bottom: 15px;
+}
+
+#block-11-i-Num {
+  font-family: 'KrubLightItalic';
+  font-size: 22pt;
+  text-align: left;
+  line-height: 120%;
+  letter-spacing: 3px;
+  padding-bottom: 15px;
+}
+
+#block-11-i-Vowel {
+  font-family: 'KrubLightItalic';
+  line-height: 150%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-11-i-Sp-Char {
+  font-family: 'KrubLightItalic';
+  line-height: 150%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-11-i-Symbol {
+  font-family: 'KrubLightItalic';
+  line-height: 130%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-11-i-Ac-Char {
+  font-family: 'KrubLightItalic';
+  line-height: 130%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-11-i-Text1 {
+  font-family: 'KrubLightItalic';
+  line-height: 125%;
+  font-size: 12pt;
+  text-align: left;
+}
+
+#block-11-i-Text2 {
+  font-family: 'KrubLightItalic';
+  line-height: 125%;
+  font-size: 18pt;
+  text-align: left;
+}
+
+#block-11-i-Text3 {
+  font-family: 'KrubLightItalic';
+  line-height: 150%;
+  font-size: 24pt;
+  text-align: left;
+}
+
+#block-12 {
+  color: #FF1D25;
+  background-color: #FFF;
+  padding-top: 80px;
+  padding-bottom: 50px;
+  text-align: left;
+}
+
+#block-12-Title {
+  font-family: 'KrubLight';
+  font-size: 12pt;
+  text-align: left;
+  letter-spacing: 0px;
+}
+
+#block-12-Char {
+  font-family: 'KrubRegular';
+  font-size: 22pt;
+  line-height: 120%;
+  text-align: left;
+  letter-spacing: 3px;
+  padding-bottom: 15px;
+}
+
+#block-12-Num {
+  font-family: 'KrubRegular';
+  font-size: 22pt;
+  text-align: left;
+  line-height: 120%;
+  letter-spacing: 3px;
+  padding-bottom: 15px;
+}
+
+#block-12-Vowel {
+  font-family: 'KrubRegular';
+  line-height: 150%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-12-Sp-Char {
+  font-family: 'KrubRegular';
+  line-height: 150%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-12-Symbol {
+  font-family: 'KrubRegular';
+  line-height: 130%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-12-Ac-Char {
+  font-family: 'KrubRegular';
+  line-height: 130%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-12-Text1 {
+  font-family: 'KrubRegular';
+  line-height: 125%;
+  font-size: 12pt;
+  text-align: left;
+}
+
+#block-12-Text2 {
+  font-family: 'KrubRegular';
+  line-height: 125%;
+  font-size: 18pt;
+  text-align: left;
+}
+
+#block-12-Text3 {
+  font-family: 'KrubRegular';
+  line-height: 150%;
+  font-size: 24pt;
+  text-align: left;
+}
+
+#block-12-i {
+  color: #FF1D25;
+  background-color: #FFF;
+  padding-top: 80px;
+  padding-bottom: 50px;
+  text-align: left;
+}
+
+#block-12-i-Title {
+  font-family: 'KrubLight';
+  font-size: 12pt;
+  text-align: left;
+  letter-spacing: 0px;
+}
+
+#block-12-i-Char {
+  font-family: 'KrubItalic';
+  font-size: 22pt;
+  line-height: 120%;
+  text-align: left;
+  letter-spacing: 3px;
+  padding-bottom: 15px;
+}
+
+#block-12-i-Num {
+  font-family: 'KrubItalic';
+  font-size: 22pt;
+  text-align: left;
+  line-height: 120%;
+  letter-spacing: 3px;
+  padding-bottom: 15px;
+}
+
+#block-12-i-Vowel {
+  font-family: 'KrubItalic';
+  line-height: 150%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-12-i-Sp-Char {
+  font-family: 'KrubItalic';
+  line-height: 150%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-12-i-Symbol {
+  font-family: 'KrubItalic';
+  line-height: 130%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-12-i-Ac-Char {
+  font-family: 'KrubItalic';
+  line-height: 130%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-12-i-Text1 {
+  font-family: 'KrubItalic';
+  line-height: 125%;
+  font-size: 12pt;
+  text-align: left;
+}
+
+#block-12-i-Text2 {
+  font-family: 'KrubItalic';
+  line-height: 125%;
+  font-size: 18pt;
+  text-align: left;
+}
+
+#block-12-i-Text3 {
+  font-family: 'KrubItalic';
+  line-height: 150%;
+  font-size: 24pt;
+  text-align: left;
+}
+
+#block-13 {
+  color: #FF1D25;
+  background-color: #FFF;
+  padding-top: 80px;
+  padding-bottom: 50px;
+  text-align: left;
+}
+
+#block-13-Title {
+  font-family: 'KrubLight';
+  font-size: 12pt;
+  text-align: left;
+  letter-spacing: 0px;
+}
+
+#block-13-Char {
+  font-family: 'KrubMedium';
+  font-size: 22pt;
+  line-height: 120%;
+  text-align: left;
+  letter-spacing: 3px;
+  padding-bottom: 15px;
+}
+
+#block-13-Num {
+  font-family: 'KrubMedium';
+  font-size: 22pt;
+  text-align: left;
+  line-height: 120%;
+  letter-spacing: 3px;
+  padding-bottom: 15px;
+}
+
+#block-13-Vowel {
+  font-family: 'KrubMedium';
+  line-height: 150%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-13-Sp-Char {
+  font-family: 'KrubMedium';
+  line-height: 150%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-13-Symbol {
+  font-family: 'KrubMedium';
+  line-height: 130%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-13-Ac-Char {
+  font-family: 'KrubMedium';
+  line-height: 130%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-13-Text1 {
+  font-family: 'KrubMedium';
+  line-height: 125%;
+  font-size: 12pt;
+  text-align: left;
+}
+
+#block-13-Text2 {
+  font-family: 'KrubMedium';
+  line-height: 125%;
+  font-size: 18pt;
+  text-align: left;
+}
+
+#block-13-Text3 {
+  font-family: 'KrubMedium';
+  line-height: 150%;
+  font-size: 24pt;
+  text-align: left;
+}
+
+#block-13-i {
+  color: #FF1D25;
+  background-color: #FFF;
+  padding-top: 80px;
+  padding-bottom: 50px;
+  text-align: left;
+}
+
+#block-13-i-Title {
+  font-family: 'KrubLight';
+  font-size: 12pt;
+  text-align: left;
+  letter-spacing: 0px;
+}
+
+#block-13-i-Char {
+  font-family: 'KrubMediumItalic';
+  font-size: 22pt;
+  line-height: 120%;
+  text-align: left;
+  letter-spacing: 3px;
+  padding-bottom: 15px;
+}
+
+#block-13-i-Num {
+  font-family: 'KrubMediumItalic';
+  font-size: 22pt;
+  text-align: left;
+  line-height: 120%;
+  letter-spacing: 3px;
+  padding-bottom: 15px;
+}
+
+#block-13-i-Vowel {
+  font-family: 'KrubMediumItalic';
+  line-height: 150%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-13-i-Sp-Char {
+  font-family: 'KrubMediumItalic';
+  line-height: 150%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-13-i-Symbol {
+  font-family: 'KrubMediumItalic';
+  line-height: 130%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-13-i-Ac-Char {
+  font-family: 'KrubMediumItalic';
+  line-height: 130%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-13-i-Text1 {
+  font-family: 'KrubMediumItalic';
+  line-height: 125%;
+  font-size: 12pt;
+  text-align: left;
+}
+
+#block-13-i-Text2 {
+  font-family: 'KrubMediumItalic';
+  line-height: 125%;
+  font-size: 18pt;
+  text-align: left;
+}
+
+#block-13-i-Text3 {
+  font-family: 'KrubMediumItalic';
+  line-height: 150%;
+  font-size: 24pt;
+  text-align: left;
+}
+
+#block-14 {
+  color: #FF1D25;
+  background-color: #FFF;
+  padding-top: 80px;
+  padding-bottom: 50px;
+  text-align: left;
+}
+
+#block-14-Title {
+  font-family: 'KrubLight';
+  font-size: 12pt;
+  text-align: left;
+  letter-spacing: 0px;
+}
+
+#block-14-Char {
+  font-family: 'KrubSemiBold';
+  font-size: 22pt;
+  line-height: 120%;
+  text-align: left;
+  letter-spacing: 3px;
+  padding-bottom: 15px;
+}
+
+#block-14-Num {
+  font-family: 'KrubSemiBold';
+  font-size: 22pt;
+  text-align: left;
+  line-height: 120%;
+  letter-spacing: 3px;
+  padding-bottom: 15px;
+}
+
+#block-14-Vowel {
+  font-family: 'KrubSemiBold';
+  line-height: 150%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-14-Sp-Char {
+  font-family: 'KrubSemiBold';
+  line-height: 150%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-14-Symbol {
+  font-family: 'KrubSemiBold';
+  line-height: 130%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-14-Ac-Char {
+  font-family: 'KrubSemiBold';
+  line-height: 130%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-14-Text1 {
+  font-family: 'KrubSemiBold';
+  line-height: 125%;
+  font-size: 12pt;
+  text-align: left;
+}
+
+#block-14-Text2 {
+  font-family: 'KrubSemiBold';
+  line-height: 125%;
+  font-size: 18pt;
+  text-align: left;
+}
+
+#block-14-Text3 {
+  font-family: 'KrubSemiBold';
+  line-height: 150%;
+  font-size: 24pt;
+  text-align: left;
+}
+
+#block-14-i {
+  color: #FF1D25;
+  background-color: #FFF;
+  padding-top: 80px;
+  padding-bottom: 50px;
+  text-align: left;
+}
+
+#block-14-i-Title {
+  font-family: 'KrubLight';
+  font-size: 12pt;
+  text-align: left;
+  letter-spacing: 0px;
+}
+
+#block-14-i-Char {
+  font-family: 'KrubSemiBoldItalic';
+  font-size: 22pt;
+  line-height: 120%;
+  text-align: left;
+  letter-spacing: 3px;
+  padding-bottom: 15px;
+}
+
+#block-14-i-Num {
+  font-family: 'KrubSemiBoldItalic';
+  font-size: 22pt;
+  text-align: left;
+  line-height: 120%;
+  letter-spacing: 3px;
+  padding-bottom: 15px;
+}
+
+#block-14-i-Vowel {
+  font-family: 'KrubSemiBoldItalic';
+  line-height: 150%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-14-i-Sp-Char {
+  font-family: 'KrubSemiBoldItalic';
+  line-height: 150%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-14-i-Symbol {
+  font-family: 'KrubSemiBoldItalic';
+  line-height: 130%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-14-i-Ac-Char {
+  font-family: 'KrubSemiBoldItalic';
+  line-height: 130%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-14-i-Text1 {
+  font-family: 'KrubSemiBoldItalic';
+  line-height: 125%;
+  font-size: 12pt;
+  text-align: left;
+}
+
+#block-14-i-Text2 {
+  font-family: 'KrubSemiBoldItalic';
+  line-height: 125%;
+  font-size: 18pt;
+  text-align: left;
+}
+
+#block-14-i-Text3 {
+  font-family: 'KrubSemiBoldItalic';
+  line-height: 150%;
+  font-size: 24pt;
+  text-align: left;
+}
+
+
+#block-15 {
+  color: #FF1D25;
+  background-color: #FFF;
+  padding-top: 80px;
+  padding-bottom: 50px;
+  text-align: left;
+}
+
+#block-15-Title {
+  font-family: 'KrubLight';
+  font-size: 12pt;
+  text-align: left;
+  letter-spacing: 0px;
+}
+
+#block-15-Char {
+  font-family: 'KrubBold';
+  font-size: 22pt;
+  line-height: 120%;
+  text-align: left;
+  letter-spacing: 3px;
+  padding-bottom: 15px;
+}
+
+#block-15-Num {
+  font-family: 'KrubBold';
+  font-size: 22pt;
+  text-align: left;
+  line-height: 120%;
+  letter-spacing: 3px;
+  padding-bottom: 15px;
+}
+
+#block-15-Vowel {
+  font-family: 'KrubBold';
+  line-height: 150%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-15-Sp-Char {
+  font-family: 'KrubBold';
+  line-height: 150%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-15-Symbol {
+  font-family: 'KrubBold';
+  line-height: 130%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-15-Ac-Char {
+  font-family: 'KrubBold';
+  line-height: 130%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-15-Text1 {
+  font-family: 'KrubBold';
+  line-height: 125%;
+  font-size: 12pt;
+  text-align: left;
+}
+
+#block-15-Text2 {
+  font-family: 'KrubBold';
+  line-height: 125%;
+  font-size: 18pt;
+  text-align: left;
+}
+
+#block-15-Text3 {
+  font-family: 'KrubBold';
+  line-height: 150%;
+  font-size: 24pt;
+  text-align: left;
+}
+
+#block-15-i {
+  color: #FF1D25;
+  background-color: #FFF;
+  padding-top: 80px;
+  padding-bottom: 50px;
+  text-align: left;
+}
+
+#block-15-i-Title {
+  font-family: 'KrubLight';
+  font-size: 12pt;
+  text-align: left;
+  letter-spacing: 0px;
+}
+
+#block-15-i-Char {
+  font-family: 'KrubBoldItalic';
+  font-size: 22pt;
+  line-height: 120%;
+  text-align: left;
+  letter-spacing: 3px;
+  padding-bottom: 15px;
+}
+
+#block-15-i-Num {
+  font-family: 'KrubBoldItalic';
+  font-size: 22pt;
+  text-align: left;
+  line-height: 120%;
+  letter-spacing: 3px;
+  padding-bottom: 15px;
+}
+
+#block-15-i-Vowel {
+  font-family: 'KrubBoldItalic';
+  line-height: 150%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-15-i-Sp-Char {
+  font-family: 'KrubBoldItalic';
+  line-height: 150%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-15-i-Symbol {
+  font-family: 'KrubBoldItalic';
+  line-height: 130%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-15-i-Ac-Char {
+  font-family: 'KrubBoldItalic';
+  line-height: 130%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-15-i-Text1 {
+  font-family: 'KrubBoldItalic';
+  line-height: 125%;
+  font-size: 12pt;
+  text-align: left;
+}
+
+#block-15-i-Text2 {
+  font-family: 'KrubBoldItalic';
+  line-height: 125%;
+  font-size: 18pt;
+  text-align: left;
+}
+
+#block-15-i-Text3 {
+  font-family: 'KrubBoldItalic';
+  line-height: 150%;
+  font-size: 24pt;
+  text-align: left;
+}
+
+#block-16 {
+  color: #FF1D25;
+  background-color: #FFF;
+  padding-top: 80px;
+  padding-bottom: 50px;
+  text-align: left;
+}
+
+#block-16-Title {
+  font-family: 'KrubLight';
+  font-size: 12pt;
+  text-align: left;
+  letter-spacing: 0px;
+}
+
+#block-16-Char {
+  font-family: 'KrubExtraBold';
+  font-size: 22pt;
+  line-height: 120%;
+  text-align: left;
+  letter-spacing: 3px;
+  padding-bottom: 15px;
+}
+
+#block-16-Num {
+  font-family: 'KrubExtraBold';
+  font-size: 22pt;
+  text-align: left;
+  line-height: 120%;
+  letter-spacing: 3px;
+  padding-bottom: 15px;
+}
+
+#block-16-Vowel {
+  font-family: 'KrubExtraBold';
+  line-height: 150%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-16-Sp-Char {
+  font-family: 'KrubExtraBold';
+  line-height: 150%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-16-Symbol {
+  font-family: 'KrubExtraBold';
+  line-height: 130%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-16-Ac-Char {
+  font-family: 'KrubExtraBold';
+  line-height: 130%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-16-Text1 {
+  font-family: 'KrubExtraBold';
+  line-height: 125%;
+  font-size: 12pt;
+  text-align: left;
+}
+
+#block-16-Text2 {
+  font-family: 'KrubExtraBold';
+  line-height: 125%;
+  font-size: 18pt;
+  text-align: left;
+}
+
+#block-16-Text3 {
+  font-family: 'KrubExtraBold';
+  line-height: 150%;
+  font-size: 24pt;
+  text-align: left;
+}
+
+#block-16-i {
+  color: #FF1D25;
+  background-color: #FFF;
+  padding-top: 80px;
+  padding-bottom: 50px;
+  text-align: left;
+}
+
+#block-16-i-Title {
+  font-family: 'KrubLight';
+  font-size: 12pt;
+  text-align: left;
+  letter-spacing: 0px;
+}
+
+#block-16-i-Char {
+  font-family: 'KrubExtraBoldItalic';
+  font-size: 22pt;
+  line-height: 120%;
+  text-align: left;
+  letter-spacing: 3px;
+  padding-bottom: 15px;
+}
+
+#block-16-i-Num {
+  font-family: 'KrubExtraBoldItalic';
+  font-size: 22pt;
+  text-align: left;
+  line-height: 120%;
+  letter-spacing: 3px;
+  padding-bottom: 15px;
+}
+
+#block-16-i-Vowel {
+  font-family: 'KrubExtraBoldItalic';
+  line-height: 150%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-16-i-Sp-Char {
+  font-family: 'KrubExtraBoldItalic';
+  line-height: 150%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-16-i-Symbol {
+  font-family: 'KrubExtraBoldItalic';
+  line-height: 130%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-16-i-Ac-Char {
+  font-family: 'KrubExtraBoldItalic';
+  line-height: 130%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-16-i-Text1 {
+  font-family: 'KrubExtraBoldItalic';
+  line-height: 125%;
+  font-size: 12pt;
+  text-align: left;
+}
+
+#block-16-i-Text2 {
+  font-family: 'KrubExtraBoldItalic';
+  line-height: 125%;
+  font-size: 18pt;
+  text-align: left;
+}
+
+#block-16-i-Text3 {
+  font-family: 'KrubExtraBoldItalic';
+  line-height: 150%;
+  font-size: 24pt;
+  text-align: left;
+}
+
+#block-17 {
+  color: #FF1D25;
+  background-color: #FFF;
+  padding-top: 80px;
+  padding-bottom: 50px;
+  text-align: left;
+}
+
+#block-17-Title {
+  font-family: 'KrubLight';
+  font-size: 12pt;
+  text-align: left;
+  letter-spacing: 0px;
+}
+
+#block-17-Char {
+  font-family: 'KrubBlack';
+  font-size: 22pt;
+  line-height: 120%;
+  text-align: left;
+  letter-spacing: 3px;
+  padding-bottom: 15px;
+}
+
+#block-17-Num {
+  font-family: 'KrubBlack';
+  font-size: 22pt;
+  text-align: left;
+  line-height: 120%;
+  letter-spacing: 3px;
+  padding-bottom: 15px;
+}
+
+#block-17-Vowel {
+  font-family: 'KrubBlack';
+  line-height: 150%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-17-Sp-Char {
+  font-family: 'KrubBlack';
+  line-height: 150%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-17-Symbol {
+  font-family: 'KrubBlack';
+  line-height: 130%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-17-Ac-Char {
+  font-family: 'KrubBlack';
+  line-height: 130%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-17-Text1 {
+  font-family: 'KrubBlack';
+  line-height: 125%;
+  font-size: 12pt;
+  text-align: left;
+}
+
+#block-17-Text2 {
+  font-family: 'KrubBlack';
+  line-height: 125%;
+  font-size: 18pt;
+  text-align: left;
+}
+
+#block-17-Text3 {
+  font-family: 'KrubBlack';
+  line-height: 150%;
+  font-size: 24pt;
+  text-align: left;
+}
+
+#block-17-i {
+  color: #FF1D25;
+  background-color: #FFF;
+  padding-top: 80px;
+  padding-bottom: 50px;
+  text-align: left;
+}
+
+#block-17-i-Title {
+  font-family: 'KrubLight';
+  font-size: 12pt;
+  text-align: left;
+  letter-spacing: 0px;
+}
+
+#block-17-i-Char {
+  font-family: 'KrubBlackItalic';
+  font-size: 22pt;
+  line-height: 120%;
+  text-align: left;
+  letter-spacing: 3px;
+  padding-bottom: 15px;
+}
+
+#block-17-i-Num {
+  font-family: 'KrubBlackItalic';
+  font-size: 22pt;
+  text-align: left;
+  line-height: 120%;
+  letter-spacing: 3px;
+  padding-bottom: 15px;
+}
+
+#block-17-i-Vowel {
+  font-family: 'KrubBlackItalic';
+  line-height: 150%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-17-i-Sp-Char {
+  font-family: 'KrubBlackItalic';
+  line-height: 150%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-17-i-Symbol {
+  font-family: 'KrubBlackItalic';
+  line-height: 130%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-17-i-Ac-Char {
+  font-family: 'KrubBlackItalic';
+  line-height: 130%;
+  font-size: 22pt;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#block-17-i-Text1 {
+  font-family: 'KrubBlackItalic';
+  line-height: 125%;
+  font-size: 12pt;
+  text-align: left;
+}
+
+#block-17-i-Text2 {
+  font-family: 'KrubBlackItalic';
+  line-height: 125%;
+  font-size: 18pt;
+  text-align: left;
+}
+
+#block-17-i-Text3 {
+  font-family: 'KrubBlackItalic';
+  line-height: 150%;
+  font-size: 24pt;
+  text-align: left;
+}
+
+#Line1 {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #FF1D25;
+}
+
+#Line2 {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #FF1D25;
+}
