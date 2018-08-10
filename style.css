@@ -1,13 +1,4 @@
 @font-face {
-    font-family: 'KrubThinItalic';
-    src: url('./fonts/Krub-ThinItalic.eot');
-    src: url('./fonts/Krub-ThinItalic.eot?#iefix') format('embedded-opentype'),
-         url('./fonts/Krub-ThinItalic.woff2') format('woff2'),
-         url('./fonts/Krub-ThinItalic.woff') format('woff'),
-         url('./fonts/Krub-ThinItalic.ttf') format('truetype');
-}
-
-@font-face {
     font-family: 'KrubExtraLightItalic';
     src: url('./fonts/Krub-ExtraLightItalic.eot');
     src: url('./fonts/Krub-ExtraLightItalic.eot?#iefix') format('embedded-opentype'),
@@ -71,24 +62,6 @@
 }
 
 @font-face {
-    font-family: 'KrubBlackItalic';
-    src: url('./fonts/Krub-BlackItalic.eot');
-    src: url('./fonts/Krub-BlackItalic.eot?#iefix') format('embedded-opentype'),
-         url('./fonts/Krub-BlackItalic.woff2') format('woff2'),
-         url('./fonts/Krub-BlackItalic.woff') format('woff'),
-         url('./fonts/Krub-BlackItalic.ttf') format('truetype');
-}
-
-@font-face {
-    font-family: 'KrubThin';
-    src: url('./fonts/Krub-Thin.eot');
-    src: url('./fonts/Krub-Thin.eot?#iefix') format('embedded-opentype'),
-         url('./fonts/Krub-Thin.woff2') format('woff2'),
-         url('./fonts/Krub-Thin.woff') format('woff'),
-         url('./fonts/Krub-Thin.ttf') format('truetype');
-}
-
-@font-face {
     font-family: 'KrubExtraLight';
     src: url('./fonts/Krub-ExtraLight.eot');
     src: url('./fonts/Krub-ExtraLight.eot?#iefix') format('embedded-opentype'),
@@ -152,24 +125,6 @@
 }
 
 @font-face {
-    font-family: 'KrubBlack';
-    src: url('./fonts/Krub-Black.eot');
-    src: url('./fonts/Krub-Black.eot?#iefix') format('embedded-opentype'),
-         url('./fonts/Krub-Black.woff2') format('woff2'),
-         url('./fonts/Krub-Black.woff') format('woff'),
-         url('./fonts/Krub-Black.ttf') format('truetype');
-}
-
-@font-face {
-    font-family: 'KrubThin';
-    src: url('./fonts/Krub-Thin.eot');
-    src: url('./fonts/Krub-Thin.eot?#iefix') format('embedded-opentype'),
-         url('./fonts/Krub-Thin.woff2') format('woff2'),
-         url('./fonts/Krub-Thin.woff') format('woff'),
-         url('./fonts/Krub-Thin.ttf') format('truetype');
-}
-
-@font-face {
     font-family: 'KrubExtraLight';
     src: url('./fonts/Krub-ExtraLight.eot');
     src: url('./fonts/Krub-ExtraLight.eot?#iefix') format('embedded-opentype'),
@@ -194,15 +149,6 @@
          url('./fonts/Krub-Regular.woff2') format('woff2'),
          url('./fonts/Krub-Regular.woff') format('woff'),
          url('./fonts/Krub-Regular.ttf') format('truetype');
-}
-
-@font-face {
-    font-family: 'KrubMedium';
-    src: url('./fonts/Krub-Medium.eot');
-    src: url('./fonts/Krub-Medium.eot?#iefix') format('embedded-opentype'),
-         url('./fonts/Krub-Medium.woff2') format('woff2'),
-         url('./fonts/Krub-Medium.woff') format('woff'),
-         url('./fonts/Krub-Medium.ttf') format('truetype');
 }
 
 @font-face {
@@ -233,24 +179,6 @@
 }
 
 @font-face {
-    font-family: 'KrubBlack';
-    src: url('./fonts/Krub-Black.eot');
-    src: url('./fonts/Krub-Black.eot?#iefix') format('embedded-opentype'),
-         url('./fonts/Krub-Black.woff2') format('woff2'),
-         url('./fonts/Krub-Black.woff') format('woff'),
-         url('./fonts/Krub-Black.ttf') format('truetype');
-}
-
-@font-face {
-    font-family: 'KrubThin';
-    src: url('./fonts/Krub-Thin.eot');
-    src: url('./fonts/Krub-Thin.eot?#iefix') format('embedded-opentype'),
-         url('./fonts/Krub-Thin.woff2') format('woff2'),
-         url('./fonts/Krub-Thin.woff') format('woff'),
-         url('./fonts/Krub-Thin.ttf') format('truetype');
-}
-
-@font-face {
     font-family: 'KrubExtraLight';
     src: url('./fonts/Krub-ExtraLight.eot');
     src: url('./fonts/Krub-ExtraLight.eot?#iefix') format('embedded-opentype'),
@@ -278,15 +206,6 @@
 }
 
 @font-face {
-    font-family: 'KrubMedium';
-    src: url('./fonts/Krub-Medium.eot');
-    src: url('./fonts/Krub-Medium.eot?#iefix') format('embedded-opentype'),
-         url('./fonts/Krub-Medium.woff2') format('woff2'),
-         url('./fonts/Krub-Medium.woff') format('woff'),
-         url('./fonts/Krub-Medium.ttf') format('truetype');
-}
-
-@font-face {
     font-family: 'KrubSemiBold';
     src: url('./fonts/Krub-SemiBold.eot');
     src: url('./fonts/Krub-SemiBold.eot?#iefix') format('embedded-opentype'),
@@ -311,15 +230,6 @@
          url('./fonts/Krub-ExtraBold.woff2') format('woff2'),
          url('./fonts/Krub-ExtraBold.woff') format('woff'),
          url('./fonts/Krub-ExtraBold.ttf') format('truetype');
-}
-
-@font-face {
-    font-family: 'KrubBlack';
-    src: url('./fonts/Krub-Black.eot');
-    src: url('./fonts/Krub-Black.eot?#iefix') format('embedded-opentype'),
-         url('./fonts/Krub-Black.woff2') format('woff2'),
-         url('./fonts/Krub-Black.woff') format('woff'),
-         url('./fonts/Krub-Black.ttf') format('truetype');
 }
 
 #block-1 {
@@ -334,11 +244,6 @@
   line-height: 200%;
   text-align: center;
   padding-top: 250px;
-}
-
-#name {
-  font-family: 'KrubMedium';
-  font-size: 90pt;
 }
 
 #block-2 {
@@ -374,14 +279,6 @@
   background-color: #BDCCD4;
 }
 
-#block-4-text {
-  font-family: 'KrubThin';
-  font-size: 18pt;
-  line-height: 120%;
-  text-align: right;
-  padding-top: 380px;
-}
-
 #block-5 {
   color: #FF1D25;
   background-color: #FFF;
@@ -405,14 +302,6 @@
 }
 
 
-#block-5-text0 {
-  font-family: 'KrubThin';
-  font-size: 110pt;
-  line-height: 100%;
-  text-align: left;
-  padding-top: 80px;
-}
-
 #block-5-text1 {
   font-family: 'KrubExtraLight';
   font-size: 110pt;
@@ -435,14 +324,6 @@
   line-height: 100%;
   text-align: left;
   padding-top: 60px;
-}
-
-#block-5-text4 {
-  font-family: 'KrubMedium';
-  font-size: 110pt;
-  line-height: 100%;
-  text-align: left;
-  padding-top: 65px;
 }
 
 #block-5-text5 {
@@ -499,15 +380,6 @@
   padding-top: 20px;
 }
 
-
-#block-5-i-text0 {
-  font-family: 'KrubThinItalic';
-  font-size: 110pt;
-  line-height: 100%;
-  text-align: left;
-  padding-top: 80px;
-}
-
 #block-5-i-text1 {
   font-family: 'KrubExtraLightItalic';
   font-size: 110pt;
@@ -530,14 +402,6 @@
   line-height: 100%;
   text-align: left;
   padding-top: 60px;
-}
-
-#block-5-i-text4 {
-  font-family: 'KrubMediumItalic';
-  font-size: 110pt;
-  line-height: 100%;
-  text-align: left;
-  padding-top: 65px;
 }
 
 #block-5-i-text5 {
@@ -617,14 +481,6 @@
   background-color: #BDCCD4;
 }
 
-#block-7-3-text1 {
-  font-family: 'KrubThinItalic';
-  font-size: 13pt;
-  line-height: 150%;
-  text-align: left;
-  padding-top: 500px;
-}
-
 #block-7-3-text2 {
   font-family: 'KrubExtraBoldItalic';
   font-size: 13pt;
@@ -689,77 +545,6 @@ ul.nav > li.active > a {
   letter-spacing: 0px;
 }
 
-#block-9-Char {
-  font-family: 'KrubThin';
-  font-size: 22pt;
-  line-height: 120%;
-  text-align: left;
-  letter-spacing: 3px;
-  padding-bottom: 15px;
-}
-
-#block-9-Num {
-  font-family: 'KrubThin';
-  font-size: 22pt;
-  text-align: left;
-  line-height: 120%;
-  letter-spacing: 3px;
-  padding-bottom: 15px;
-}
-
-#block-9-Vowel {
-  font-family: 'KrubThin';
-  line-height: 150%;
-  font-size: 22pt;
-  text-align: left;
-  padding-bottom: 15px;
-}
-
-#block-9-Sp-Char {
-  font-family: 'KrubThin';
-  line-height: 150%;
-  font-size: 22pt;
-  text-align: left;
-  padding-bottom: 15px;
-}
-
-#block-9-Symbol {
-  font-family: 'KrubThin';
-  line-height: 130%;
-  font-size: 22pt;
-  text-align: left;
-  padding-bottom: 15px;
-}
-
-#block-9-Ac-Char {
-  font-family: 'KrubThin';
-  line-height: 130%;
-  font-size: 22pt;
-  text-align: left;
-  padding-bottom: 15px;
-}
-
-#block-9-Text1 {
-  font-family: 'KrubThin';
-  line-height: 125%;
-  font-size: 12pt;
-  text-align: left;
-}
-
-#block-9-Text2 {
-  font-family: 'KrubThin';
-  line-height: 125%;
-  font-size: 18pt;
-  text-align: left;
-}
-
-#block-9-Text3 {
-  font-family: 'KrubThin';
-  line-height: 150%;
-  font-size: 24pt;
-  text-align: left;
-}
-
 #block-9-i {
   color: #FF1D25;
   background-color: #FFF;
@@ -773,77 +558,6 @@ ul.nav > li.active > a {
   font-size: 12pt;
   text-align: left;
   letter-spacing: 0px;
-}
-
-#block-9-i-Char {
-  font-family: 'KrubThinItalic';
-  font-size: 22pt;
-  line-height: 120%;
-  text-align: left;
-  letter-spacing: 3px;
-  padding-bottom: 15px;
-}
-
-#block-9-i-Num {
-  font-family: 'KrubThinItalic';
-  font-size: 22pt;
-  text-align: left;
-  line-height: 120%;
-  letter-spacing: 3px;
-  padding-bottom: 15px;
-}
-
-#block-9-i-Vowel {
-  font-family: 'KrubThinItalic';
-  line-height: 150%;
-  font-size: 22pt;
-  text-align: left;
-  padding-bottom: 15px;
-}
-
-#block-9-i-Sp-Char {
-  font-family: 'KrubThinItalic';
-  line-height: 150%;
-  font-size: 22pt;
-  text-align: left;
-  padding-bottom: 15px;
-}
-
-#block-9-i-Symbol {
-  font-family: 'KrubThinItalic';
-  line-height: 130%;
-  font-size: 22pt;
-  text-align: left;
-  padding-bottom: 15px;
-}
-
-#block-9-i-Ac-Char {
-  font-family: 'KrubThinItalic';
-  line-height: 130%;
-  font-size: 22pt;
-  text-align: left;
-  padding-bottom: 15px;
-}
-
-#block-9-i-Text1 {
-  font-family: 'KrubThinItalic';
-  line-height: 125%;
-  font-size: 12pt;
-  text-align: left;
-}
-
-#block-9-i-Text2 {
-  font-family: 'KrubThinItalic';
-  line-height: 125%;
-  font-size: 18pt;
-  text-align: left;
-}
-
-#block-9-i-Text3 {
-  font-family: 'KrubThinItalic';
-  line-height: 150%;
-  font-size: 24pt;
-  text-align: left;
 }
 
 #block-10 {
