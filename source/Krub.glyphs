@@ -1,5 +1,5 @@
 {
-.appVersion = "1141";
+.appVersion = "1161";
 copyright = "Copyright 2018 The Krub Project Authors (https://github.com/cadsondemak/Krub)";
 customParameters = (
 {
@@ -225,15 +225,15 @@ capHeight = 700;
 customParameters = (
 {
 name = typoAscender;
-value = 750;
+value = 1007;
 },
 {
 name = typoDescender;
-value = -250;
+value = -293;
 },
 {
 name = typoLineGap;
-value = 200;
+value = 0;
 },
 {
 name = winAscent;
@@ -249,15 +249,15 @@ value = n;
 },
 {
 name = hheaAscender;
-value = 750;
+value = 1007;
 },
 {
 name = hheaDescender;
-value = -250;
+value = -293;
 },
 {
 name = hheaLineGap;
-value = 200;
+value = 0;
 }
 );
 descender = -250;
@@ -286,15 +286,15 @@ capHeight = 700;
 customParameters = (
 {
 name = typoAscender;
-value = 750;
+value = 1007;
 },
 {
 name = typoDescender;
-value = -250;
+value = -293;
 },
 {
 name = typoLineGap;
-value = 200;
+value = 0;
 },
 {
 name = winAscent;
@@ -310,15 +310,15 @@ value = n;
 },
 {
 name = hheaAscender;
-value = 750;
+value = 1007;
 },
 {
 name = hheaDescender;
-value = -250;
+value = -293;
 },
 {
 name = hheaLineGap;
-value = 200;
+value = 0;
 }
 );
 descender = -250;
@@ -346,15 +346,15 @@ capHeight = 700;
 customParameters = (
 {
 name = typoAscender;
-value = 750;
+value = 1007;
 },
 {
 name = typoDescender;
-value = -250;
+value = -293;
 },
 {
 name = typoLineGap;
-value = 200;
+value = 0;
 },
 {
 name = winAscent;
@@ -370,15 +370,15 @@ value = n;
 },
 {
 name = hheaAscender;
-value = 750;
+value = 1007;
 },
 {
 name = hheaDescender;
-value = -250;
+value = -293;
 },
 {
 name = hheaLineGap;
-value = 200;
+value = 0;
 }
 );
 descender = -250;
@@ -409,15 +409,15 @@ custom = Italic;
 customParameters = (
 {
 name = typoAscender;
-value = 750;
+value = 1007;
 },
 {
 name = typoDescender;
-value = -250;
+value = -293;
 },
 {
 name = typoLineGap;
-value = 200;
+value = 0;
 },
 {
 name = winAscent;
@@ -437,15 +437,15 @@ value = n;
 },
 {
 name = hheaAscender;
-value = 750;
+value = 1007;
 },
 {
 name = hheaDescender;
-value = -250;
+value = -293;
 },
 {
 name = hheaLineGap;
-value = 200;
+value = 0;
 }
 );
 descender = -250;
@@ -476,15 +476,15 @@ custom = "Regular Italic";
 customParameters = (
 {
 name = typoAscender;
-value = 750;
+value = 1007;
 },
 {
 name = typoDescender;
-value = -250;
+value = -293;
 },
 {
 name = typoLineGap;
-value = 200;
+value = 0;
 },
 {
 name = winAscent;
@@ -504,15 +504,15 @@ value = n;
 },
 {
 name = hheaAscender;
-value = 750;
+value = 1007;
 },
 {
 name = hheaDescender;
-value = -250;
+value = -293;
 },
 {
 name = hheaLineGap;
-value = 200;
+value = 0;
 }
 );
 descender = -250;
@@ -542,15 +542,15 @@ custom = Italic;
 customParameters = (
 {
 name = typoAscender;
-value = 750;
+value = 1007;
 },
 {
 name = typoDescender;
-value = -250;
+value = -293;
 },
 {
 name = typoLineGap;
-value = 200;
+value = 0;
 },
 {
 name = winAscent;
@@ -570,15 +570,15 @@ value = n;
 },
 {
 name = hheaAscender;
-value = 750;
+value = 1007;
 },
 {
 name = hheaDescender;
-value = -250;
+value = -293;
 },
 {
 name = hheaLineGap;
-value = 200;
+value = 0;
 }
 );
 descender = -250;
@@ -70787,7 +70787,7 @@ name = o;
 },
 {
 name = horncomb;
-transform = "{1, 0, 0, 1, 493, 139}";
+transform = "{1, 0, 0, 1, 507, 139}";
 }
 );
 layerId = "F1FC1ABB-373D-41F6-B4B5-1D9126857A90";
@@ -71681,7 +71681,7 @@ transform = "{1, 0, 0, 1, 157, 0}";
 }
 );
 layerId = "FD6510A9-FDB4-489D-9A3E-85E488E95339";
-width = 548;
+width = 568;
 },
 {
 components = (
@@ -71707,7 +71707,7 @@ transform = "{1, 0, 0, 1, 157, 0}";
 }
 );
 layerId = "CF2C6045-422A-4B78-B702-649D3D8A1FBA";
-width = 548;
+width = 568;
 },
 {
 components = (
