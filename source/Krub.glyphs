@@ -1,9 +1,5 @@
 {
 .appVersion = "3260";
-DisplayStrings = (
-"/dcaron/lcaron",
-"/Schwa"
-);
 copyright = "Copyright 2018 The Krub Project Authors (https://github.com/cadsondemak/Krub)";
 customParameters = (
 {
