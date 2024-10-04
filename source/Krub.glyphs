@@ -1,35 +1,14 @@
 {
-.appVersion = "1161";
+.appVersion = "3260";
+DisplayStrings = (
+"/dcaron/lcaron",
+"/Schwa"
+);
 copyright = "Copyright 2018 The Krub Project Authors (https://github.com/cadsondemak/Krub)";
 customParameters = (
 {
-name = vendorID;
-value = CDK;
-},
-{
-name = license;
-value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL";
-},
-{
-name = licenseURL;
-value = "http://scripts.sil.org/OFL";
-},
-{
 name = fsType;
 value = (
-);
-},
-{
-name = Axes;
-value = (
-{
-Name = Weight;
-Tag = wght;
-},
-{
-Name = Italic;
-Tag = ital;
-}
 );
 },
 {
@@ -43,6 +22,31 @@ value = 1;
 {
 name = "Use Line Breaks";
 value = 1;
+},
+{
+name = license;
+value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL";
+},
+{
+name = licenseURL;
+value = "http://scripts.sil.org/OFL";
+},
+{
+name = vendorID;
+value = CDK;
+},
+{
+name = Axes;
+value = (
+{
+Name = Weight;
+Tag = wght;
+},
+{
+Name = Italic;
+Tag = ital;
+}
+);
 }
 );
 date = "2018-08-22 14:31:20 +0000";
@@ -217,7 +221,6 @@ alignmentZones = (
 "{550, 10}",
 "{470, 10}",
 "{0, -10}",
-"{-240, 0}",
 "{-250, -16}"
 );
 ascender = 750;
@@ -278,7 +281,6 @@ alignmentZones = (
 "{550, 10}",
 "{470, 10}",
 "{0, -10}",
-"{-240, 0}",
 "{-250, -16}"
 );
 ascender = 750;
@@ -338,7 +340,6 @@ alignmentZones = (
 "{550, 10}",
 "{470, 10}",
 "{0, -10}",
-"{-240, 0}",
 "{-250, -16}"
 );
 ascender = 750;
@@ -400,7 +401,6 @@ alignmentZones = (
 "{550, 10}",
 "{470, 10}",
 "{0, -10}",
-"{-240, 0}",
 "{-250, -16}"
 );
 ascender = 750;
@@ -467,7 +467,6 @@ alignmentZones = (
 "{550, 10}",
 "{470, 10}",
 "{0, -10}",
-"{-240, 0}",
 "{-250, -16}"
 );
 ascender = 750;
@@ -533,7 +532,6 @@ alignmentZones = (
 "{550, 10}",
 "{470, 10}",
 "{0, -10}",
-"{-240, 0}",
 "{-250, -16}"
 );
 ascender = 750;
@@ -1928,7 +1926,7 @@ name = A;
 },
 {
 name = circumflex_acute;
-transform = "{1, 0, 0, 1, 305, 110}";
+transform = "{1, 0, 0, 1, 310, 110}";
 }
 );
 layerId = "F1FC1ABB-373D-41F6-B4B5-1D9126857A90";
@@ -20618,9 +20616,11 @@ layers = (
 {
 components = (
 {
+alignment = -1;
 name = L;
 },
 {
+alignment = -1;
 name = apostrophemod;
 transform = "{1, 0, 0, 1, 330, 0}";
 }
@@ -20631,9 +20631,11 @@ width = 597;
 {
 components = (
 {
+alignment = -1;
 name = L;
 },
 {
+alignment = -1;
 name = apostrophemod;
 transform = "{1, 0, 0, 1, 330, 0}";
 }
@@ -20644,9 +20646,11 @@ width = 597;
 {
 components = (
 {
+alignment = -1;
 name = L;
 },
 {
+alignment = -1;
 name = apostrophemod;
 transform = "{1, 0, 0, 1, 330, 0}";
 }
@@ -20657,9 +20661,11 @@ width = 597;
 {
 components = (
 {
+alignment = -1;
 name = L;
 },
 {
+alignment = -1;
 name = apostrophemod;
 transform = "{1, 0, 0, 1, 330, 0}";
 }
@@ -20670,9 +20676,11 @@ width = 597;
 {
 components = (
 {
+alignment = -1;
 name = L;
 },
 {
+alignment = -1;
 name = apostrophemod;
 transform = "{1, 0, 0, 1, 330, 0}";
 }
@@ -20683,9 +20691,11 @@ width = 597;
 {
 components = (
 {
+alignment = -1;
 name = L;
 },
 {
+alignment = -1;
 name = apostrophemod;
 transform = "{1, 0, 0, 1, 330, 0}";
 }
@@ -20697,9 +20707,11 @@ width = 597;
 associatedMasterId = "EB12C417-147C-44D3-ABF9-73FB32C0B9E2";
 components = (
 {
+alignment = -1;
 name = L;
 },
 {
+alignment = -1;
 name = apostrophemod;
 transform = "{1, 0, 0, 1, 330, 0}";
 }
@@ -40412,7 +40424,9 @@ nodes = (
 "580 301 LINE",
 "580 363 LINE",
 "42 363 LINE",
-"42 315 LINE SMOOTH",
+"42 347 OFFCURVE",
+"42 331 OFFCURVE",
+"42 315 CURVE SMOOTH",
 "42 103 OFFCURVE",
 "141 -10 OFFCURVE",
 "328 -10 CURVE SMOOTH"
@@ -40457,7 +40471,9 @@ nodes = (
 "580 281 LINE",
 "580 383 LINE",
 "52 383 LINE",
-"52 315 LINE SMOOTH",
+"52 360 OFFCURVE",
+"52 338 OFFCURVE",
+"52 315 CURVE SMOOTH",
 "52 106 OFFCURVE",
 "158 -10 OFFCURVE",
 "348 -10 CURVE SMOOTH"
@@ -40502,7 +40518,9 @@ nodes = (
 "610 321 LINE",
 "610 363 LINE",
 "42 363 LINE",
-"42 315 LINE SMOOTH",
+"42 347 OFFCURVE",
+"42 331 OFFCURVE",
+"42 315 CURVE SMOOTH",
 "42 103 OFFCURVE",
 "141 -10 OFFCURVE",
 "328 -10 CURVE SMOOTH"
@@ -40541,20 +40559,17 @@ nodes = (
 "510 260 OFFCURVE",
 "445 93 OFFCURVE",
 "305 93 CURVE SMOOTH",
-"210 93 OFFCURVE",
-"182 150 OFFCURVE",
-"182 225 CURVE SMOOTH",
-"182 243 OFFCURVE",
-"183 262 OFFCURVE",
+"182 93 OFFCURVE",
+"172 195 OFFCURVE",
 "186 281 CURVE",
 "562 281 LINE",
 "577 383 LINE",
 "49 383 LINE",
-"37 301 OFFCURVE",
-"33 271 OFFCURVE",
-"33 240 CURVE SMOOTH",
-"33 62 OFFCURVE",
-"150 -10 OFFCURVE",
+"42 333 OFFCURVE",
+"37 287 OFFCURVE",
+"37 245 CURVE SMOOTH",
+"37 85 OFFCURVE",
+"100 -10 OFFCURVE",
 "299 -10 CURVE SMOOTH"
 );
 }
@@ -40591,20 +40606,17 @@ nodes = (
 "558 223 OFFCURVE",
 "477 53 OFFCURVE",
 "282 53 CURVE SMOOTH",
-"170 53 OFFCURVE",
-"95 117 OFFCURVE",
-"95 249 CURVE SMOOTH",
-"95 267 OFFCURVE",
-"96 282 OFFCURVE",
+"137 53 OFFCURVE",
+"76 165 OFFCURVE",
 "99 301 CURVE",
 "565 301 LINE",
 "574 363 LINE",
 "36 363 LINE",
-"27 308 OFFCURVE",
-"23 273 OFFCURVE",
-"23 242 CURVE SMOOTH",
-"23 68 OFFCURVE",
-"135 -10 OFFCURVE",
+"29 322 OFFCURVE",
+"26 284 OFFCURVE",
+"26 248 CURVE SMOOTH",
+"26 93 OFFCURVE",
+"94 -10 OFFCURVE",
 "282 -10 CURVE SMOOTH"
 );
 }
@@ -40641,20 +40653,17 @@ nodes = (
 "587 206 OFFCURVE",
 "487 28 OFFCURVE",
 "276 28 CURVE SMOOTH",
-"148 28 OFFCURVE",
-"66 90 OFFCURVE",
-"66 244 CURVE SMOOTH",
-"66 267 OFFCURVE",
-"68 293 OFFCURVE",
+"76 28 OFFCURVE",
+"50 181 OFFCURVE",
 "72 321 CURVE",
 "598 321 LINE",
 "604 363 LINE",
 "36 363 LINE",
-"26 296 OFFCURVE",
-"23 266 OFFCURVE",
-"23 235 CURVE SMOOTH",
-"23 61 OFFCURVE",
-"122 -10 OFFCURVE",
+"29 318 OFFCURVE",
+"25 276 OFFCURVE",
+"25 237 CURVE SMOOTH",
+"25 88 OFFCURVE",
+"83 -10 OFFCURVE",
 "269 -10 CURVE SMOOTH"
 );
 }
@@ -53051,7 +53060,7 @@ name = a;
 },
 {
 name = circumflex_acute;
-transform = "{1, 0, 0, 1, 272, 0}";
+transform = "{1, 0, 0, 1, 277, 0}";
 }
 );
 layerId = "F1FC1ABB-373D-41F6-B4B5-1D9126857A90";
@@ -57560,11 +57569,13 @@ layers = (
 {
 components = (
 {
+alignment = -1;
 name = d;
 },
 {
+alignment = -1;
 name = apostrophemod;
-transform = "{1, 0, 0, 1, 499, 0}";
+transform = "{1, 0, 0, 1, 499, 81}";
 }
 );
 layerId = "5A4BD32C-A1D1-4EB1-A794-47BD06E3B809";
@@ -57573,24 +57584,28 @@ width = 686;
 {
 components = (
 {
+alignment = -1;
 name = d;
 },
 {
+alignment = -1;
 name = apostrophemod;
-transform = "{1, 0, 0, 1, 539, 0}";
+transform = "{1, 0, 0, 1, 539, 81}";
 }
 );
 layerId = "FD6510A9-FDB4-489D-9A3E-85E488E95339";
-width = 686;
+width = 705;
 },
 {
 components = (
 {
+alignment = -1;
 name = d;
 },
 {
+alignment = -1;
 name = apostrophemod;
-transform = "{1, 0, 0, 1, 499, 0}";
+transform = "{1, 0, 0, 1, 499, 81}";
 }
 );
 layerId = "EB12C417-147C-44D3-ABF9-73FB32C0B9E2";
@@ -57599,24 +57614,28 @@ width = 686;
 {
 components = (
 {
+alignment = -1;
 name = d;
 },
 {
+alignment = -1;
 name = apostrophemod;
-transform = "{1, 0, 0, 1, 539, 0}";
+transform = "{1, 0, 0, 1, 551, 81}";
 }
 );
 layerId = "CF2C6045-422A-4B78-B702-649D3D8A1FBA";
-width = 686;
+width = 707;
 },
 {
 components = (
 {
+alignment = -1;
 name = d;
 },
 {
+alignment = -1;
 name = apostrophemod;
-transform = "{1, 0, 0, 1, 499, 0}";
+transform = "{1, 0, 0, 1, 511, 81}";
 }
 );
 layerId = "821A3B53-E0A3-4F70-87DD-68DD21D0650F";
@@ -57625,11 +57644,13 @@ width = 686;
 {
 components = (
 {
+alignment = -1;
 name = d;
 },
 {
+alignment = -1;
 name = apostrophemod;
-transform = "{1, 0, 0, 1, 499, 0}";
+transform = "{1, 0, 0, 1, 511, 81}";
 }
 );
 layerId = "3E05E8D4-50BE-428E-AA2A-790990B7EE87";
@@ -57639,9 +57660,11 @@ width = 686;
 associatedMasterId = "EB12C417-147C-44D3-ABF9-73FB32C0B9E2";
 components = (
 {
+alignment = -1;
 name = d;
 },
 {
+alignment = -1;
 name = apostrophemod;
 transform = "{1, 0, 0, 1, 499, 0}";
 }
@@ -63993,9 +64016,11 @@ width = 290;
 associatedMasterId = "EB12C417-147C-44D3-ABF9-73FB32C0B9E2";
 components = (
 {
+alignment = -1;
 name = i;
 },
 {
+alignment = -1;
 name = ogonekcomb;
 transform = "{1, 0, 0, 1, 175, 6}";
 }
@@ -65744,88 +65769,102 @@ layers = (
 {
 components = (
 {
+alignment = -1;
 name = l;
 },
 {
+alignment = -1;
 name = apostrophemod;
-transform = "{1, 0, 0, 1, 218, 0}";
+transform = "{1, 0, 0, 1, 163, 81}";
 }
 );
 layerId = "5A4BD32C-A1D1-4EB1-A794-47BD06E3B809";
-width = 427;
+width = 350;
 },
 {
 components = (
 {
+alignment = -1;
 name = l;
 },
 {
+alignment = -1;
 name = apostrophemod;
-transform = "{1, 0, 0, 1, 228, 0}";
+transform = "{1, 0, 0, 1, 228, 81}";
 }
 );
 layerId = "FD6510A9-FDB4-489D-9A3E-85E488E95339";
-width = 427;
+width = 394;
 },
 {
 components = (
 {
+alignment = -1;
 name = l;
 },
 {
+alignment = -1;
 name = apostrophemod;
-transform = "{1, 0, 0, 1, 218, 0}";
+transform = "{1, 0, 0, 1, 160, 82}";
 }
 );
 layerId = "EB12C417-147C-44D3-ABF9-73FB32C0B9E2";
-width = 427;
+width = 347;
 },
 {
 components = (
 {
+alignment = -1;
 name = l;
 },
 {
+alignment = -1;
 name = apostrophemod;
-transform = "{1, 0, 0, 1, 228, 0}";
+transform = "{1, 0, 0, 1, 228, 81}";
 }
 );
 layerId = "CF2C6045-422A-4B78-B702-649D3D8A1FBA";
-width = 427;
+width = 405;
 },
 {
 components = (
 {
+alignment = -1;
 name = l;
 },
 {
+alignment = -1;
 name = apostrophemod;
-transform = "{1, 0, 0, 1, 218, 0}";
+transform = "{1, 0, 0, 1, 178, 81}";
 }
 );
 layerId = "821A3B53-E0A3-4F70-87DD-68DD21D0650F";
-width = 427;
+width = 353;
 },
 {
 components = (
 {
+alignment = -1;
 name = l;
 },
 {
+alignment = -1;
 name = apostrophemod;
-transform = "{1, 0, 0, 1, 218, 0}";
+transform = "{1, 0, 0, 1, 163, 81}";
 }
 );
 layerId = "3E05E8D4-50BE-428E-AA2A-790990B7EE87";
-width = 427;
+width = 338;
 },
 {
 associatedMasterId = "EB12C417-147C-44D3-ABF9-73FB32C0B9E2";
 components = (
 {
+alignment = -1;
 name = l;
 },
 {
+alignment = -1;
 name = apostrophemod;
 transform = "{1, 0, 0, 1, 218, 0}";
 }
@@ -65942,9 +65981,11 @@ layers = (
 {
 components = (
 {
+alignment = -1;
 name = l;
 },
 {
+alignment = -1;
 name = periodcentered;
 transform = "{1, 0, 0, 1, 145, 50}";
 }
@@ -65955,9 +65996,11 @@ width = 416;
 {
 components = (
 {
+alignment = -1;
 name = l;
 },
 {
+alignment = -1;
 name = periodcentered;
 transform = "{1, 0, 0, 1, 165, 50}";
 }
@@ -65968,9 +66011,11 @@ width = 416;
 {
 components = (
 {
+alignment = -1;
 name = l;
 },
 {
+alignment = -1;
 name = periodcentered;
 transform = "{1, 0, 0, 1, 145, 50}";
 }
@@ -65981,9 +66026,11 @@ width = 416;
 {
 components = (
 {
+alignment = -1;
 name = l;
 },
 {
+alignment = -1;
 name = periodcentered;
 transform = "{1, 0, 0, 1, 172, 50}";
 }
@@ -65994,9 +66041,11 @@ width = 416;
 {
 components = (
 {
+alignment = -1;
 name = l;
 },
 {
+alignment = -1;
 name = periodcentered;
 transform = "{1, 0, 0, 1, 152, 50}";
 }
@@ -66007,9 +66056,11 @@ width = 416;
 {
 components = (
 {
+alignment = -1;
 name = l;
 },
 {
+alignment = -1;
 name = periodcentered;
 transform = "{1, 0, 0, 1, 152, 50}";
 }
@@ -66021,9 +66072,11 @@ width = 416;
 associatedMasterId = "EB12C417-147C-44D3-ABF9-73FB32C0B9E2";
 components = (
 {
+alignment = -1;
 name = l;
 },
 {
+alignment = -1;
 name = periodcentered;
 transform = "{1, 0, 0, 1, 145, 50}";
 }
@@ -69748,7 +69801,7 @@ name = o;
 },
 {
 name = circumflex_acute;
-transform = "{1, 0, 0, 1, 269, 0}";
+transform = "{1, 0, 0, 1, 274, 0}";
 }
 );
 layerId = "F1FC1ABB-373D-41F6-B4B5-1D9126857A90";
@@ -75978,8 +76031,9 @@ components = (
 name = t;
 },
 {
-name = caroncomb;
-transform = "{1, 0, 0, 1, 152, 110}";
+alignment = -1;
+name = apostrophemod;
+transform = "{1, 0, 0, 1, 182, 112}";
 }
 );
 layerId = "5A4BD32C-A1D1-4EB1-A794-47BD06E3B809";
@@ -75991,8 +76045,9 @@ components = (
 name = t;
 },
 {
-name = caroncomb;
-transform = "{1, 0, 0, 1, 172, 110}";
+alignment = -1;
+name = apostrophemod;
+transform = "{1, 0, 0, 1, 251, 112}";
 }
 );
 layerId = "FD6510A9-FDB4-489D-9A3E-85E488E95339";
@@ -76004,8 +76059,9 @@ components = (
 name = t;
 },
 {
-name = caroncomb;
-transform = "{1, 0, 0, 1, 152, 110}";
+alignment = -1;
+name = apostrophemod;
+transform = "{1, 0, 0, 1, 182, 112}";
 }
 );
 layerId = "EB12C417-147C-44D3-ABF9-73FB32C0B9E2";
@@ -76017,8 +76073,9 @@ components = (
 name = t;
 },
 {
-name = caroncomb;
-transform = "{1, 0, 0, 1, 187, 110}";
+alignment = -1;
+name = apostrophemod;
+transform = "{1, 0, 0, 1, 260, 112}";
 }
 );
 layerId = "CF2C6045-422A-4B78-B702-649D3D8A1FBA";
@@ -76030,8 +76087,9 @@ components = (
 name = t;
 },
 {
-name = caroncomb;
-transform = "{1, 0, 0, 1, 167, 110}";
+alignment = -1;
+name = apostrophemod;
+transform = "{1, 0, 0, 1, 182, 112}";
 }
 );
 layerId = "821A3B53-E0A3-4F70-87DD-68DD21D0650F";
@@ -76043,8 +76101,9 @@ components = (
 name = t;
 },
 {
-name = caroncomb;
-transform = "{1, 0, 0, 1, 167, 110}";
+alignment = -1;
+name = apostrophemod;
+transform = "{1, 0, 0, 1, 182, 112}";
 }
 );
 layerId = "3E05E8D4-50BE-428E-AA2A-790990B7EE87";
@@ -134433,11 +134492,11 @@ layers = (
 components = (
 {
 name = parenleftinferior;
-transform = "{-1, 0, 0, 1, 183, 0}";
+transform = "{-1, 0, 0, 1, 180, 0}";
 }
 );
 layerId = "5A4BD32C-A1D1-4EB1-A794-47BD06E3B809";
-width = 173;
+width = 180;
 },
 {
 components = (
@@ -134453,15 +134512,16 @@ width = 220;
 components = (
 {
 name = parenleftinferior;
-transform = "{-1, 0, 0, 1, 183, 0}";
+transform = "{-1, 0, 0, 1, 180, 0}";
 }
 );
 layerId = "EB12C417-147C-44D3-ABF9-73FB32C0B9E2";
-width = 173;
+width = 180;
 },
 {
 components = (
 {
+alignment = -1;
 name = parenleftinferior;
 transform = "{-1, 0, 0, -1, 173, 446}";
 }
@@ -134472,6 +134532,7 @@ width = 220;
 {
 components = (
 {
+alignment = -1;
 name = parenleftinferior;
 transform = "{-1, 0, 0, -1, 135, 446}";
 }
@@ -134482,6 +134543,7 @@ width = 173;
 {
 components = (
 {
+alignment = -1;
 name = parenleftinferior;
 transform = "{-1, 0, 0, -1, 123, 446}";
 }
@@ -135316,6 +135378,7 @@ layers = (
 {
 components = (
 {
+alignment = -1;
 name = parenleftinferior;
 transform = "{1, 0, 0, 1, 0, 266}";
 }
@@ -135326,6 +135389,7 @@ width = 173;
 {
 components = (
 {
+alignment = -1;
 name = parenleftinferior;
 transform = "{1, 0, 0, 1, 0, 266}";
 }
@@ -135336,6 +135400,7 @@ width = 220;
 {
 components = (
 {
+alignment = -1;
 name = parenleftinferior;
 transform = "{1, 0, 0, 1, 0, 266}";
 }
@@ -135346,6 +135411,7 @@ width = 173;
 {
 components = (
 {
+alignment = -1;
 name = parenleftinferior;
 transform = "{1, 0, 0, 1, 54, 266}";
 }
@@ -135356,6 +135422,7 @@ width = 220;
 {
 components = (
 {
+alignment = -1;
 name = parenleftinferior;
 transform = "{1, 0, 0, 1, 23, 266}";
 }
@@ -135366,6 +135433,7 @@ width = 173;
 {
 components = (
 {
+alignment = -1;
 name = parenleftinferior;
 transform = "{1, 0, 0, 1, 38, 266}";
 }
@@ -135377,6 +135445,7 @@ width = 173;
 associatedMasterId = "EB12C417-147C-44D3-ABF9-73FB32C0B9E2";
 components = (
 {
+alignment = -1;
 name = parenleftinferior;
 transform = "{1, 0, 0, 1, 0, 236}";
 }
@@ -135395,6 +135464,7 @@ layers = (
 {
 components = (
 {
+alignment = -1;
 name = parenleftinferior;
 transform = "{-1, 0, 0, 1, 183, 266}";
 }
@@ -135405,6 +135475,7 @@ width = 173;
 {
 components = (
 {
+alignment = -1;
 name = parenleftinferior;
 transform = "{-1, 0, 0, 1, 220, 266}";
 }
@@ -135415,6 +135486,7 @@ width = 220;
 {
 components = (
 {
+alignment = -1;
 name = parenleftinferior;
 transform = "{-1, 0, 0, 1, 183, 266}";
 }
@@ -135425,6 +135497,7 @@ width = 173;
 {
 components = (
 {
+alignment = -1;
 name = parenleftinferior;
 transform = "{-1, 0, 0, -1, 204, 712}";
 }
@@ -135435,6 +135508,7 @@ width = 220;
 {
 components = (
 {
+alignment = -1;
 name = parenleftinferior;
 transform = "{-1, 0, 0, -1, 186, 712}";
 }
@@ -135445,6 +135519,7 @@ width = 173;
 {
 components = (
 {
+alignment = -1;
 name = parenleftinferior;
 transform = "{-1, 0, 0, -1, 156, 712}";
 }
@@ -160397,6 +160472,7 @@ position = "{-1, 685}";
 );
 components = (
 {
+alignment = -1;
 name = dieresis;
 transform = "{1, 0, 0, 1, -151, 0}";
 }
@@ -160417,6 +160493,7 @@ position = "{-1, 747}";
 );
 components = (
 {
+alignment = -1;
 name = dieresis;
 transform = "{1, 0, 0, 1, -171, 0}";
 }
@@ -160437,6 +160514,7 @@ position = "{-1, 685}";
 );
 components = (
 {
+alignment = -1;
 name = dieresis;
 transform = "{1, 0, 0, 1, -151, 0}";
 }
@@ -160457,6 +160535,7 @@ position = "{47, 747}";
 );
 components = (
 {
+alignment = -1;
 name = dieresis;
 transform = "{1, 0, 0, 1, -171, 0}";
 }
@@ -160477,6 +160556,7 @@ position = "{38, 685}";
 );
 components = (
 {
+alignment = -1;
 name = dieresis;
 transform = "{1, 0, 0, 1, -151, 0}";
 }
@@ -160497,6 +160577,7 @@ position = "{38, 685}";
 );
 components = (
 {
+alignment = -1;
 name = dieresis;
 transform = "{1, 0, 0, 1, -151, 0}";
 }
@@ -160518,6 +160599,7 @@ position = "{-1, 685}";
 associatedMasterId = "EB12C417-147C-44D3-ABF9-73FB32C0B9E2";
 components = (
 {
+alignment = -1;
 name = dieresis;
 transform = "{1, 0, 0, 1, -151, 0}";
 }
@@ -160546,6 +160628,7 @@ position = "{0, 700}";
 );
 components = (
 {
+alignment = -1;
 name = dotaccent;
 transform = "{1, 0, 0, 1, -124, 0}";
 }
@@ -160566,6 +160649,7 @@ position = "{0, 700}";
 );
 components = (
 {
+alignment = -1;
 name = dotaccent;
 transform = "{1, 0, 0, 1, -124, 0}";
 }
@@ -160586,6 +160670,7 @@ position = "{0, 700}";
 );
 components = (
 {
+alignment = -1;
 name = dotaccent;
 transform = "{1, 0, 0, 1, -124, 0}";
 }
@@ -160606,6 +160691,7 @@ position = "{41, 700}";
 );
 components = (
 {
+alignment = -1;
 name = dotaccent;
 transform = "{1, 0, 0, 1, -124, 0}";
 }
@@ -160626,6 +160712,7 @@ position = "{41, 700}";
 );
 components = (
 {
+alignment = -1;
 name = dotaccent;
 transform = "{1, 0, 0, 1, -124, 0}";
 }
@@ -160646,6 +160733,7 @@ position = "{41, 700}";
 );
 components = (
 {
+alignment = -1;
 name = dotaccent;
 transform = "{1, 0, 0, 1, -124, 0}";
 }
@@ -160667,6 +160755,7 @@ position = "{0, 700}";
 associatedMasterId = "EB12C417-147C-44D3-ABF9-73FB32C0B9E2";
 components = (
 {
+alignment = -1;
 name = dotaccent;
 transform = "{1, 0, 0, 1, -124, 0}";
 }
@@ -160695,6 +160784,7 @@ position = "{0, 753}";
 );
 components = (
 {
+alignment = -1;
 name = grave;
 transform = "{1, 0, 0, 1, -114, 0}";
 }
@@ -160715,6 +160805,7 @@ position = "{0, 753}";
 );
 components = (
 {
+alignment = -1;
 name = grave;
 transform = "{1, 0, 0, 1, -114, 0}";
 }
@@ -160735,6 +160826,7 @@ position = "{0, 753}";
 );
 components = (
 {
+alignment = -1;
 name = grave;
 transform = "{1, 0, 0, 1, -114, 0}";
 }
@@ -160755,6 +160847,7 @@ position = "{49, 753}";
 );
 components = (
 {
+alignment = -1;
 name = grave;
 transform = "{1, 0, 0, 1, -114, 0}";
 }
@@ -160775,6 +160868,7 @@ position = "{47, 753}";
 );
 components = (
 {
+alignment = -1;
 name = grave;
 transform = "{1, 0, 0, 1, -116, 0}";
 }
@@ -160795,6 +160889,7 @@ position = "{48, 753}";
 );
 components = (
 {
+alignment = -1;
 name = grave;
 transform = "{1, 0, 0, 1, -115, 0}";
 }
@@ -160823,6 +160918,7 @@ position = "{127, 750}";
 );
 components = (
 {
+alignment = -1;
 name = acute;
 }
 );
@@ -160842,6 +160938,7 @@ position = "{127, 750}";
 );
 components = (
 {
+alignment = -1;
 name = acute;
 }
 );
@@ -160861,6 +160958,7 @@ position = "{127, 750}";
 );
 components = (
 {
+alignment = -1;
 name = acute;
 }
 );
@@ -160880,6 +160978,7 @@ position = "{175, 750}";
 );
 components = (
 {
+alignment = -1;
 name = acute;
 }
 );
@@ -160899,6 +160998,7 @@ position = "{175, 750}";
 );
 components = (
 {
+alignment = -1;
 name = acute;
 }
 );
@@ -160918,6 +161018,7 @@ position = "{175, 750}";
 );
 components = (
 {
+alignment = -1;
 name = acute;
 }
 );
@@ -160938,6 +161039,7 @@ position = "{127, 750}";
 associatedMasterId = "EB12C417-147C-44D3-ABF9-73FB32C0B9E2";
 components = (
 {
+alignment = -1;
 name = acute;
 }
 );
@@ -160965,6 +161067,7 @@ position = "{0, 740}";
 );
 components = (
 {
+alignment = -1;
 name = hungarumlaut;
 transform = "{1, 0, 0, 1, -112, 0}";
 }
@@ -160985,6 +161088,7 @@ position = "{0, 773}";
 );
 components = (
 {
+alignment = -1;
 name = hungarumlaut;
 transform = "{1, 0, 0, 1, -142, 0}";
 }
@@ -161005,6 +161109,7 @@ position = "{0, 740}";
 );
 components = (
 {
+alignment = -1;
 name = hungarumlaut;
 transform = "{1, 0, 0, 1, -112, 0}";
 }
@@ -161025,6 +161130,7 @@ position = "{51, 773}";
 );
 components = (
 {
+alignment = -1;
 name = hungarumlaut;
 transform = "{1, 0, 0, 1, -142, 0}";
 }
@@ -161045,6 +161151,7 @@ position = "{47, 740}";
 );
 components = (
 {
+alignment = -1;
 name = hungarumlaut;
 transform = "{1, 0, 0, 1, -112, 0}";
 }
@@ -161065,6 +161172,7 @@ position = "{47, 740}";
 );
 components = (
 {
+alignment = -1;
 name = hungarumlaut;
 transform = "{1, 0, 0, 1, -112, 0}";
 }
@@ -161086,6 +161194,7 @@ position = "{0, 740}";
 associatedMasterId = "EB12C417-147C-44D3-ABF9-73FB32C0B9E2";
 components = (
 {
+alignment = -1;
 name = hungarumlaut;
 transform = "{1, 0, 0, 1, -112, 0}";
 }
@@ -161114,6 +161223,7 @@ position = "{-1, 723}";
 );
 components = (
 {
+alignment = -1;
 name = circumflex;
 transform = "{1, 0, 0, 1, -122, 0}";
 }
@@ -161134,6 +161244,7 @@ position = "{-1, 743}";
 );
 components = (
 {
+alignment = -1;
 name = circumflex;
 transform = "{1, 0, 0, 1, -122, 0}";
 }
@@ -161154,6 +161265,7 @@ position = "{-1, 723}";
 );
 components = (
 {
+alignment = -1;
 name = circumflex;
 transform = "{1, 0, 0, 1, -122, 0}";
 }
@@ -161174,6 +161286,7 @@ position = "{46, 743}";
 );
 components = (
 {
+alignment = -1;
 name = circumflex;
 transform = "{1, 0, 0, 1, -122, 0}";
 }
@@ -161194,6 +161307,7 @@ position = "{43, 723}";
 );
 components = (
 {
+alignment = -1;
 name = circumflex;
 transform = "{1, 0, 0, 1, -122, 0}";
 }
@@ -161214,6 +161328,7 @@ position = "{43, 723}";
 );
 components = (
 {
+alignment = -1;
 name = circumflex;
 transform = "{1, 0, 0, 1, -122, 0}";
 }
@@ -161235,6 +161350,7 @@ position = "{-1, 723}";
 associatedMasterId = "EB12C417-147C-44D3-ABF9-73FB32C0B9E2";
 components = (
 {
+alignment = -1;
 name = circumflex;
 transform = "{1, 0, 0, 1, -122, 0}";
 }
@@ -161263,6 +161379,7 @@ position = "{-2, 725}";
 );
 components = (
 {
+alignment = -1;
 name = caron;
 transform = "{1, 0, 0, 1, -123, 0}";
 }
@@ -161283,6 +161400,7 @@ position = "{-2, 725}";
 );
 components = (
 {
+alignment = -1;
 name = caron;
 transform = "{1, 0, 0, 1, -123, 0}";
 }
@@ -161303,6 +161421,7 @@ position = "{-2, 725}";
 );
 components = (
 {
+alignment = -1;
 name = caron;
 transform = "{1, 0, 0, 1, -123, 0}";
 }
@@ -161323,6 +161442,7 @@ position = "{43, 725}";
 );
 components = (
 {
+alignment = -1;
 name = caron;
 transform = "{1, 0, 0, 1, -123, 0}";
 }
@@ -161343,6 +161463,7 @@ position = "{43, 725}";
 );
 components = (
 {
+alignment = -1;
 name = caron;
 transform = "{1, 0, 0, 1, -123, 0}";
 }
@@ -161363,6 +161484,7 @@ position = "{43, 725}";
 );
 components = (
 {
+alignment = -1;
 name = caron;
 transform = "{1, 0, 0, 1, -123, 0}";
 }
@@ -161384,6 +161506,7 @@ position = "{-2, 725}";
 associatedMasterId = "EB12C417-147C-44D3-ABF9-73FB32C0B9E2";
 components = (
 {
+alignment = -1;
 name = caron;
 transform = "{1, 0, 0, 1, -123, 0}";
 }
@@ -161412,6 +161535,7 @@ position = "{0, 719}";
 );
 components = (
 {
+alignment = -1;
 name = breve;
 transform = "{1, 0, 0, 1, -121, 0}";
 }
@@ -161432,6 +161556,7 @@ position = "{0, 719}";
 );
 components = (
 {
+alignment = -1;
 name = breve;
 transform = "{1, 0, 0, 1, -121, 0}";
 }
@@ -161452,6 +161577,7 @@ position = "{0, 719}";
 );
 components = (
 {
+alignment = -1;
 name = breve;
 transform = "{1, 0, 0, 1, -121, 0}";
 }
@@ -161472,6 +161598,7 @@ position = "{44, 719}";
 );
 components = (
 {
+alignment = -1;
 name = breve;
 transform = "{1, 0, 0, 1, -121, 0}";
 }
@@ -161492,6 +161619,7 @@ position = "{44, 719}";
 );
 components = (
 {
+alignment = -1;
 name = breve;
 transform = "{1, 0, 0, 1, -121, 0}";
 }
@@ -161512,6 +161640,7 @@ position = "{44, 719}";
 );
 components = (
 {
+alignment = -1;
 name = breve;
 transform = "{1, 0, 0, 1, -121, 0}";
 }
@@ -161533,6 +161662,7 @@ position = "{0, 719}";
 associatedMasterId = "EB12C417-147C-44D3-ABF9-73FB32C0B9E2";
 components = (
 {
+alignment = -1;
 name = breve;
 transform = "{1, 0, 0, 1, -121, 0}";
 }
@@ -161561,6 +161691,7 @@ position = "{0, 847}";
 );
 components = (
 {
+alignment = -1;
 name = ring;
 transform = "{1, 0, 0, 1, -122, 0}";
 }
@@ -161581,6 +161712,7 @@ position = "{0, 847}";
 );
 components = (
 {
+alignment = -1;
 name = ring;
 transform = "{1, 0, 0, 1, -122, 0}";
 }
@@ -161601,6 +161733,7 @@ position = "{0, 847}";
 );
 components = (
 {
+alignment = -1;
 name = ring;
 transform = "{1, 0, 0, 1, -122, 0}";
 }
@@ -161621,6 +161754,7 @@ position = "{62, 847}";
 );
 components = (
 {
+alignment = -1;
 name = ring;
 transform = "{1, 0, 0, 1, -122, 0}";
 }
@@ -161641,6 +161775,7 @@ position = "{62, 847}";
 );
 components = (
 {
+alignment = -1;
 name = ring;
 transform = "{1, 0, 0, 1, -122, 0}";
 }
@@ -161661,6 +161796,7 @@ position = "{62, 847}";
 );
 components = (
 {
+alignment = -1;
 name = ring;
 transform = "{1, 0, 0, 1, -122, 0}";
 }
@@ -161682,6 +161818,7 @@ position = "{0, 847}";
 associatedMasterId = "EB12C417-147C-44D3-ABF9-73FB32C0B9E2";
 components = (
 {
+alignment = -1;
 name = ring;
 transform = "{1, 0, 0, 1, -122, 0}";
 }
@@ -161710,6 +161847,7 @@ position = "{0, 756}";
 );
 components = (
 {
+alignment = -1;
 name = tilde;
 transform = "{1, 0, 0, 1, -121, 0}";
 }
@@ -161730,6 +161868,7 @@ position = "{0, 756}";
 );
 components = (
 {
+alignment = -1;
 name = tilde;
 transform = "{1, 0, 0, 1, -121, 0}";
 }
@@ -161750,6 +161889,7 @@ position = "{0, 756}";
 );
 components = (
 {
+alignment = -1;
 name = tilde;
 transform = "{1, 0, 0, 1, -121, 0}";
 }
@@ -161770,6 +161910,7 @@ position = "{49, 756}";
 );
 components = (
 {
+alignment = -1;
 name = tilde;
 transform = "{1, 0, 0, 1, -121, 0}";
 }
@@ -161790,6 +161931,7 @@ position = "{49, 756}";
 );
 components = (
 {
+alignment = -1;
 name = tilde;
 transform = "{1, 0, 0, 1, -121, 0}";
 }
@@ -161810,6 +161952,7 @@ position = "{49, 756}";
 );
 components = (
 {
+alignment = -1;
 name = tilde;
 transform = "{1, 0, 0, 1, -121, 0}";
 }
@@ -161831,6 +161974,7 @@ position = "{0, 756}";
 associatedMasterId = "EB12C417-147C-44D3-ABF9-73FB32C0B9E2";
 components = (
 {
+alignment = -1;
 name = tilde;
 transform = "{1, 0, 0, 1, -121, 0}";
 }
@@ -161859,6 +162003,7 @@ position = "{0, 724}";
 );
 components = (
 {
+alignment = -1;
 name = macron;
 transform = "{1, 0, 0, 1, -121, 0}";
 }
@@ -161879,6 +162024,7 @@ position = "{0, 724}";
 );
 components = (
 {
+alignment = -1;
 name = macron;
 transform = "{1, 0, 0, 1, -121, 0}";
 }
@@ -161899,6 +162045,7 @@ position = "{0, 724}";
 );
 components = (
 {
+alignment = -1;
 name = macron;
 transform = "{1, 0, 0, 1, -121, 0}";
 }
@@ -161919,6 +162066,7 @@ position = "{44, 724}";
 );
 components = (
 {
+alignment = -1;
 name = macron;
 transform = "{1, 0, 0, 1, -121, 0}";
 }
@@ -161939,6 +162087,7 @@ position = "{44, 724}";
 );
 components = (
 {
+alignment = -1;
 name = macron;
 transform = "{1, 0, 0, 1, -121, 0}";
 }
@@ -161959,6 +162108,7 @@ position = "{44, 724}";
 );
 components = (
 {
+alignment = -1;
 name = macron;
 transform = "{1, 0, 0, 1, -121, 0}";
 }
@@ -161980,6 +162130,7 @@ position = "{0, 724}";
 associatedMasterId = "EB12C417-147C-44D3-ABF9-73FB32C0B9E2";
 components = (
 {
+alignment = -1;
 name = macron;
 transform = "{1, 0, 0, 1, -121, 0}";
 }
@@ -163358,6 +163509,7 @@ position = "{1, -214}";
 );
 components = (
 {
+alignment = -1;
 name = cedilla;
 transform = "{1, 0, 0, 1, -129, 0}";
 }
@@ -163378,6 +163530,7 @@ position = "{1, -214}";
 );
 components = (
 {
+alignment = -1;
 name = cedilla;
 transform = "{1, 0, 0, 1, -129, 0}";
 }
@@ -163398,6 +163551,7 @@ position = "{1, -214}";
 );
 components = (
 {
+alignment = -1;
 name = cedilla;
 transform = "{1, 0, 0, 1, -134, 0}";
 }
@@ -163418,6 +163572,7 @@ position = "{-86, -214}";
 );
 components = (
 {
+alignment = -1;
 name = cedilla;
 transform = "{1, 0, 0, 1, -131, 0}";
 }
@@ -163438,6 +163593,7 @@ position = "{-86, -214}";
 );
 components = (
 {
+alignment = -1;
 name = cedilla;
 transform = "{1, 0, 0, 1, -128, 0}";
 }
@@ -163458,6 +163614,7 @@ position = "{-86, -214}";
 );
 components = (
 {
+alignment = -1;
 name = cedilla;
 transform = "{1, 0, 0, 1, -133, 0}";
 }
@@ -163479,6 +163636,7 @@ position = "{1, -214}";
 associatedMasterId = "EB12C417-147C-44D3-ABF9-73FB32C0B9E2";
 components = (
 {
+alignment = -1;
 name = cedilla;
 transform = "{1, 0, 0, 1, -122, 0}";
 }
@@ -163503,6 +163661,7 @@ position = "{36, 4}";
 );
 components = (
 {
+alignment = -1;
 name = ogonek;
 transform = "{1, 0, 0, 1, -116, 0}";
 }
@@ -163519,6 +163678,7 @@ position = "{56, 4}";
 );
 components = (
 {
+alignment = -1;
 name = ogonek;
 transform = "{1, 0, 0, 1, -116, 0}";
 }
@@ -163535,6 +163695,7 @@ position = "{36, 4}";
 );
 components = (
 {
+alignment = -1;
 name = ogonek;
 transform = "{1, 0, 0, 1, -116, 0}";
 }
@@ -163551,6 +163712,7 @@ position = "{-1, 4}";
 );
 components = (
 {
+alignment = -1;
 name = ogonek;
 transform = "{1, 0, 0, 1, -116, 0}";
 }
@@ -163567,6 +163729,7 @@ position = "{-21, 4}";
 );
 components = (
 {
+alignment = -1;
 name = ogonek;
 transform = "{1, 0, 0, 1, -116, 0}";
 }
@@ -163583,6 +163746,7 @@ position = "{-21, 4}";
 );
 components = (
 {
+alignment = -1;
 name = ogonek;
 transform = "{1, 0, 0, 1, -116, 0}";
 }
@@ -163600,6 +163764,7 @@ position = "{36, 4}";
 associatedMasterId = "EB12C417-147C-44D3-ABF9-73FB32C0B9E2";
 components = (
 {
+alignment = -1;
 name = ogonek;
 transform = "{1, 0, 0, 1, -116, 0}";
 }
@@ -163628,6 +163793,7 @@ position = "{-1, -183}";
 );
 components = (
 {
+alignment = -1;
 name = breve;
 transform = "{1, 0, 0, 1, -123, -833}";
 }
@@ -163648,6 +163814,7 @@ position = "{-1, -183}";
 );
 components = (
 {
+alignment = -1;
 name = breve;
 transform = "{1, 0, 0, 1, -123, -833}";
 }
@@ -163668,6 +163835,7 @@ position = "{-1, -183}";
 );
 components = (
 {
+alignment = -1;
 name = breve;
 transform = "{1, 0, 0, 1, -123, -833}";
 }
@@ -163688,6 +163856,7 @@ position = "{-84, -183}";
 );
 components = (
 {
+alignment = -1;
 name = breve;
 transform = "{1, 0, 0, 1, -240, -833}";
 }
@@ -163708,6 +163877,7 @@ position = "{-84, -183}";
 );
 components = (
 {
+alignment = -1;
 name = breve;
 transform = "{1, 0, 0, 1, -240, -833}";
 }
@@ -163728,6 +163898,7 @@ position = "{-84, -183}";
 );
 components = (
 {
+alignment = -1;
 name = breve;
 transform = "{1, 0, 0, 1, -240, -833}";
 }
@@ -163749,6 +163920,7 @@ position = "{-1, -183}";
 associatedMasterId = "EB12C417-147C-44D3-ABF9-73FB32C0B9E2";
 components = (
 {
+alignment = -1;
 name = breve;
 transform = "{1, 0, 0, 1, -123, -833}";
 }
@@ -163777,6 +163949,7 @@ position = "{0, -110}";
 );
 components = (
 {
+alignment = -1;
 name = macron;
 transform = "{1, 0, 0, 1, -121, -784}";
 }
@@ -163797,6 +163970,7 @@ position = "{0, -170}";
 );
 components = (
 {
+alignment = -1;
 name = macron;
 transform = "{1, 0, 0, 1, -121, -814}";
 }
@@ -163817,6 +163991,7 @@ position = "{0, -110}";
 );
 components = (
 {
+alignment = -1;
 name = macron;
 transform = "{1, 0, 0, 1, -121, -784}";
 }
@@ -163837,6 +164012,7 @@ position = "{-81, -170}";
 );
 components = (
 {
+alignment = -1;
 name = macron;
 transform = "{1, 0, 0, 1, -235, -814}";
 }
@@ -163857,6 +164033,7 @@ position = "{-73, -110}";
 );
 components = (
 {
+alignment = -1;
 name = macron;
 transform = "{1, 0, 0, 1, -231, -784}";
 }
@@ -163877,6 +164054,7 @@ position = "{-73, -110}";
 );
 components = (
 {
+alignment = -1;
 name = macron;
 transform = "{1, 0, 0, 1, -231, -784}";
 }
@@ -163898,6 +164076,7 @@ position = "{0, -110}";
 associatedMasterId = "EB12C417-147C-44D3-ABF9-73FB32C0B9E2";
 components = (
 {
+alignment = -1;
 name = macron;
 transform = "{1, 0, 0, 1, -121, -784}";
 }
@@ -164391,10 +164570,12 @@ position = "{-1, 934}";
 );
 components = (
 {
+alignment = -1;
 name = breve;
 transform = "{1, 0, 0, 1, -121, 0}";
 },
 {
+alignment = -1;
 name = gravecomb;
 transform = "{1, 0, 0, 1, 0, 151}";
 }
@@ -164415,10 +164596,12 @@ position = "{-1, 934}";
 );
 components = (
 {
+alignment = -1;
 name = breve;
 transform = "{1, 0, 0, 1, -121, 0}";
 },
 {
+alignment = -1;
 name = gravecomb;
 transform = "{1, 0, 0, 1, 0, 151}";
 }
@@ -164439,10 +164622,12 @@ position = "{-1, 934}";
 );
 components = (
 {
+alignment = -1;
 name = breve;
 transform = "{1, 0, 0, 1, -121, 0}";
 },
 {
+alignment = -1;
 name = gravecomb;
 transform = "{1, 0, 0, 1, 0, 151}";
 }
@@ -164463,10 +164648,12 @@ position = "{73, 934}";
 );
 components = (
 {
+alignment = -1;
 name = breve;
 transform = "{1, 0, 0, 1, -121, 0}";
 },
 {
+alignment = -1;
 name = gravecomb;
 transform = "{1, 0, 0, 1, 21, 151}";
 }
@@ -164487,10 +164674,12 @@ position = "{73, 934}";
 );
 components = (
 {
+alignment = -1;
 name = breve;
 transform = "{1, 0, 0, 1, -121, 0}";
 },
 {
+alignment = -1;
 name = gravecomb;
 transform = "{1, 0, 0, 1, 21, 151}";
 }
@@ -164511,10 +164700,12 @@ position = "{73, 934}";
 );
 components = (
 {
+alignment = -1;
 name = breve;
 transform = "{1, 0, 0, 1, -121, 0}";
 },
 {
+alignment = -1;
 name = gravecomb;
 transform = "{1, 0, 0, 1, 21, 151}";
 }
@@ -164536,10 +164727,12 @@ position = "{-1, 934}";
 associatedMasterId = "EB12C417-147C-44D3-ABF9-73FB32C0B9E2";
 components = (
 {
+alignment = -1;
 name = breve;
 transform = "{1, 0, 0, 1, -121, 0}";
 },
 {
+alignment = -1;
 name = gravecomb;
 transform = "{1, 0, 0, 1, 0, 151}";
 }
@@ -179778,9 +179971,11 @@ position = "{-113, 1122}";
 associatedMasterId = "EB12C417-147C-44D3-ABF9-73FB32C0B9E2";
 components = (
 {
+alignment = -1;
 name = "nikhahit-thai";
 },
 {
+alignment = -1;
 name = "maiEk-thai.small";
 transform = "{1, 0, 0, 1, 2, -17}";
 }
@@ -180420,9 +180615,11 @@ position = "{-89, 1131}";
 associatedMasterId = "EB12C417-147C-44D3-ABF9-73FB32C0B9E2";
 components = (
 {
+alignment = -1;
 name = "nikhahit-thai";
 },
 {
+alignment = -1;
 name = "maiTho-thai.small";
 transform = "{1, 0, 0, 1, 25, -15}";
 }
@@ -181644,9 +181841,11 @@ position = "{-114, 1118}";
 associatedMasterId = "EB12C417-147C-44D3-ABF9-73FB32C0B9E2";
 components = (
 {
+alignment = -1;
 name = "nikhahit-thai";
 },
 {
+alignment = -1;
 name = "maiChattawa-thai.small";
 transform = "{1, 0, 0, 1, 18, -16}";
 }
@@ -187278,7 +187477,6 @@ instanceInterpolations = {
 "EB12C417-147C-44D3-ABF9-73FB32C0B9E2" = 1;
 };
 name = ExtraLight;
-weightClass = ExtraLight;
 },
 {
 interpolationWeight = 300;
@@ -187347,7 +187545,6 @@ instanceInterpolations = {
 isItalic = 1;
 linkStyle = ExtraLight;
 name = "ExtraLight Italic";
-weightClass = ExtraLight;
 },
 {
 customParameters = (
